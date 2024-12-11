@@ -89,7 +89,7 @@ namespace MonopolyGildedAgeCompanionApp
 
             AllMarkets.Add(new Market( // Position 4
                 name: "Steel Stock",
-                priceFloor: 30,
+                priceFloor: 40,
                 priceCeiling: 220,
                 shiftChanceFloor: 0.75f,
                 shiftChanceCeiling: 0.98f,

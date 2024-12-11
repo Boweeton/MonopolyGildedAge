@@ -208,6 +208,7 @@
             // pictureBox_StockMarketAggriculture_FutureIndicator
             // 
             pictureBox_StockMarketAggriculture_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketAggriculture_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_StockMarketAggriculture_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketAggriculture_FutureIndicator.Name = "pictureBox_StockMarketAggriculture_FutureIndicator";
             pictureBox_StockMarketAggriculture_FutureIndicator.Size = new Size(29, 60);
@@ -273,6 +274,7 @@
             // pictureBox_StockMarketTextiles_FutureIndicator
             // 
             pictureBox_StockMarketTextiles_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketTextiles_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_StockMarketTextiles_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketTextiles_FutureIndicator.Name = "pictureBox_StockMarketTextiles_FutureIndicator";
             pictureBox_StockMarketTextiles_FutureIndicator.Size = new Size(29, 60);
@@ -338,6 +340,7 @@
             // pictureBox_StockMarketOil_FutureIndicator
             // 
             pictureBox_StockMarketOil_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketOil_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_StockMarketOil_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketOil_FutureIndicator.Name = "pictureBox_StockMarketOil_FutureIndicator";
             pictureBox_StockMarketOil_FutureIndicator.Size = new Size(29, 60);
@@ -403,6 +406,7 @@
             // pictureBox_StockMarketPharma_FutureIndicator
             // 
             pictureBox_StockMarketPharma_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketPharma_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_StockMarketPharma_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketPharma_FutureIndicator.Name = "pictureBox_StockMarketPharma_FutureIndicator";
             pictureBox_StockMarketPharma_FutureIndicator.Size = new Size(29, 60);
@@ -468,6 +472,7 @@
             // pictureBox_StockMarketSteel_FutureIndicator
             // 
             pictureBox_StockMarketSteel_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketSteel_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_StockMarketSteel_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketSteel_FutureIndicator.Name = "pictureBox_StockMarketSteel_FutureIndicator";
             pictureBox_StockMarketSteel_FutureIndicator.Size = new Size(29, 60);
@@ -533,6 +538,7 @@
             // pictureBox_GoodsMarket_FutureIndicator
             // 
             pictureBox_GoodsMarket_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_GoodsMarket_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_GoodsMarket_FutureIndicator.Location = new Point(356, 32);
             pictureBox_GoodsMarket_FutureIndicator.Name = "pictureBox_GoodsMarket_FutureIndicator";
             pictureBox_GoodsMarket_FutureIndicator.Size = new Size(29, 60);
@@ -553,6 +559,7 @@
             // pictureBox_HouseMarket_Brown_FutureIndicator
             // 
             pictureBox_HouseMarket_Brown_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Brown_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Brown_FutureIndicator.Location = new Point(686, 832);
             pictureBox_HouseMarket_Brown_FutureIndicator.Name = "pictureBox_HouseMarket_Brown_FutureIndicator";
             pictureBox_HouseMarket_Brown_FutureIndicator.Size = new Size(29, 60);
@@ -635,7 +642,7 @@
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HousingMarket_FullDisplay_Background);
             panel_HousingMarketFullDisplay.Location = new Point(653, 12);
             panel_HousingMarketFullDisplay.Name = "panel_HousingMarketFullDisplay";
-            panel_HousingMarketFullDisplay.Size = new Size(975, 1010);
+            panel_HousingMarketFullDisplay.Size = new Size(1020, 1010);
             panel_HousingMarketFullDisplay.TabIndex = 5;
             // 
             // pictureBox_HouseMarket_Blue_Evaluation
@@ -675,7 +682,7 @@
             // 
             pictureBox_HouseMarket_Yellow_Evaluation.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Yellow_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
-            pictureBox_HouseMarket_Yellow_Evaluation.Location = new Point(503, 204);
+            pictureBox_HouseMarket_Yellow_Evaluation.Location = new Point(503, 214);
             pictureBox_HouseMarket_Yellow_Evaluation.Name = "pictureBox_HouseMarket_Yellow_Evaluation";
             pictureBox_HouseMarket_Yellow_Evaluation.Size = new Size(200, 31);
             pictureBox_HouseMarket_Yellow_Evaluation.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -686,7 +693,7 @@
             // 
             pictureBox_HouseMarket_Red_Evaluation.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Red_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
-            pictureBox_HouseMarket_Red_Evaluation.Location = new Point(258, 203);
+            pictureBox_HouseMarket_Red_Evaluation.Location = new Point(258, 213);
             pictureBox_HouseMarket_Red_Evaluation.Name = "pictureBox_HouseMarket_Red_Evaluation";
             pictureBox_HouseMarket_Red_Evaluation.Size = new Size(200, 31);
             pictureBox_HouseMarket_Red_Evaluation.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -729,6 +736,7 @@
             // pictureBox_HouseMarket_Blue_FutureIndicator
             // 
             pictureBox_HouseMarket_Blue_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Blue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Blue_FutureIndicator.Location = new Point(921, 594);
             pictureBox_HouseMarket_Blue_FutureIndicator.Name = "pictureBox_HouseMarket_Blue_FutureIndicator";
             pictureBox_HouseMarket_Blue_FutureIndicator.Size = new Size(29, 60);
@@ -739,6 +747,7 @@
             // pictureBox_HouseMarket_Green_FutureIndicator
             // 
             pictureBox_HouseMarket_Green_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Green_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Green_FutureIndicator.Location = new Point(921, 353);
             pictureBox_HouseMarket_Green_FutureIndicator.Name = "pictureBox_HouseMarket_Green_FutureIndicator";
             pictureBox_HouseMarket_Green_FutureIndicator.Size = new Size(29, 60);
@@ -749,7 +758,8 @@
             // pictureBox_HouseMarket_Yellow_FutureIndicator
             // 
             pictureBox_HouseMarket_Yellow_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Yellow_FutureIndicator.Location = new Point(686, 105);
+            pictureBox_HouseMarket_Yellow_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Yellow_FutureIndicator.Location = new Point(686, 115);
             pictureBox_HouseMarket_Yellow_FutureIndicator.Name = "pictureBox_HouseMarket_Yellow_FutureIndicator";
             pictureBox_HouseMarket_Yellow_FutureIndicator.Size = new Size(29, 60);
             pictureBox_HouseMarket_Yellow_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -759,7 +769,8 @@
             // pictureBox_HouseMarket_Red_FutureIndicator
             // 
             pictureBox_HouseMarket_Red_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Red_FutureIndicator.Location = new Point(444, 112);
+            pictureBox_HouseMarket_Red_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Red_FutureIndicator.Location = new Point(444, 122);
             pictureBox_HouseMarket_Red_FutureIndicator.Name = "pictureBox_HouseMarket_Red_FutureIndicator";
             pictureBox_HouseMarket_Red_FutureIndicator.Size = new Size(29, 60);
             pictureBox_HouseMarket_Red_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -769,6 +780,7 @@
             // pictureBox_HouseMarket_Orange_FutureIndicator
             // 
             pictureBox_HouseMarket_Orange_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Orange_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Orange_FutureIndicator.Location = new Point(206, 353);
             pictureBox_HouseMarket_Orange_FutureIndicator.Name = "pictureBox_HouseMarket_Orange_FutureIndicator";
             pictureBox_HouseMarket_Orange_FutureIndicator.Size = new Size(29, 60);
@@ -779,6 +791,7 @@
             // pictureBox_HouseMarket_Purple_FutureIndicator
             // 
             pictureBox_HouseMarket_Purple_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Purple_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Purple_FutureIndicator.Location = new Point(206, 594);
             pictureBox_HouseMarket_Purple_FutureIndicator.Name = "pictureBox_HouseMarket_Purple_FutureIndicator";
             pictureBox_HouseMarket_Purple_FutureIndicator.Size = new Size(29, 60);
@@ -789,6 +802,7 @@
             // pictureBox_HouseMarket_LightBlue_FutureIndicator
             // 
             pictureBox_HouseMarket_LightBlue_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_LightBlue_FutureIndicator.Location = new Point(445, 832);
             pictureBox_HouseMarket_LightBlue_FutureIndicator.Name = "pictureBox_HouseMarket_LightBlue_FutureIndicator";
             pictureBox_HouseMarket_LightBlue_FutureIndicator.Size = new Size(29, 60);
@@ -822,7 +836,7 @@
             // 
             pictureBox_HouseMarket_Yellow_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Yellow_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Yellow_Price.Location = new Point(525, 103);
+            pictureBox_HouseMarket_Yellow_Price.Location = new Point(525, 113);
             pictureBox_HouseMarket_Yellow_Price.Name = "pictureBox_HouseMarket_Yellow_Price";
             pictureBox_HouseMarket_Yellow_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Yellow_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -833,7 +847,7 @@
             // 
             pictureBox_HouseMarket_Red_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Red_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Red_Price.Location = new Point(283, 103);
+            pictureBox_HouseMarket_Red_Price.Location = new Point(283, 113);
             pictureBox_HouseMarket_Red_Price.Name = "pictureBox_HouseMarket_Red_Price";
             pictureBox_HouseMarket_Red_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Red_Price.SizeMode = PictureBoxSizeMode.StretchImage;

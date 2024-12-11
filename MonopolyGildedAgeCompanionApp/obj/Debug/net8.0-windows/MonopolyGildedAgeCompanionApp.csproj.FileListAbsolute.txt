@@ -15,3 +15,21 @@ C:\Users\luker\source\repos\MonopolyGildedAgeCompanionApp\MonopolyGildedAgeCompa
 C:\Users\luker\source\repos\MonopolyGildedAgeCompanionApp\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.genruntimeconfig.cache
 C:\Users\luker\source\repos\MonopolyGildedAgeCompanionApp\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\ref\MonopolyGildedAgeCompanionApp.dll
 C:\Users\luker\source\repos\MonopolyGildedAgeCompanionApp\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.Properties.Resources.resources
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\bin\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.exe
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\bin\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.deps.json
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\bin\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.runtimeconfig.json
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\bin\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.dll
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\bin\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.pdb
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.MainAppForm.resources
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.Properties.Resources.resources
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.csproj.GenerateResource.cache
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.AssemblyInfoInputs.cache
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.AssemblyInfo.cs
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.csproj.CoreCompileInputs.cache
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.sourcelink.json
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.dll
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\refint\MonopolyGildedAgeCompanionApp.dll
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.pdb
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\MonopolyGildedAgeCompanionApp.genruntimeconfig.cache
+C:\Users\luker\Documents\GitHub Repos\MonopolyGildedAge\MonopolyGildedAgeCompanionApp\obj\Debug\net8.0-windows\ref\MonopolyGildedAgeCompanionApp.dll

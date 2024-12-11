@@ -153,6 +153,16 @@ namespace MonopolyGildedAgeCompanionApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FUTURE_INDICATOR_Nutral {
+            get {
+                object obj = ResourceManager.GetObject("FUTURE_INDICATOR_Nutral", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GO_SPACE {
             get {
                 object obj = ResourceManager.GetObject("GO SPACE", resourceCulture);

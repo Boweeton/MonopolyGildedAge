@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonopolyGildedAgeCompanionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d76a1a77d2d28eae58dfd071fe4a20462f79aa24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2ff63e909fe86aee2c54fea6bc29b5907304841")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonopolyGildedAgeCompanionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonopolyGildedAgeCompanionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
