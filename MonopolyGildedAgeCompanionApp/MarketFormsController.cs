@@ -13,7 +13,7 @@ namespace MonopolyGildedAgeCompanionApp
 
         private Market Market;
         public Panel MarketPanel { get; set; }
-        public Label? MarketNameLabel { get; set; } // Allow nullable
+        public Label? MarketLabel { get; set; } // Allow nullable
         public PictureBox? MarketBackgroundPictureBox { get; set; } // Allow nullable
         public PictureBox? MarketPricePictureBox { get; set; } // Allow nullable
         public PictureBox? MarketEvaluationPictureBox { get; set; } // Allow nullable
@@ -31,24 +31,19 @@ namespace MonopolyGildedAgeCompanionApp
         {
             Market = market ?? throw new ArgumentNullException(nameof(market));
             MarketPanel = marketPanel ?? throw new ArgumentNullException(nameof(marketPanel));
-            MarketNameLabel = marketNameLabel;
+            MarketLabel = marketNameLabel;
             MarketBackgroundPictureBox = marketBackgroundPictureBox;
             MarketPricePictureBox = marketPricePictureBox;
             MarketEvaluationPictureBox = marketEvaluationPictureBox;
             MarketFutureIndicatorPictureBox = marketFutureIndicatorPictureBox;
 
             // Safely set attributes if the controls are not null
-            if (MarketNameLabel != null && MarketBackgroundPictureBox != null)
-            {
-                MarketNameLabel.Parent = MarketBackgroundPictureBox;
-                MarketNameLabel.BackColor = System.Drawing.Color.Transparent;
-                MarketNameLabel.Visible = false;
-            }
-
             if (MarketPricePictureBox != null && MarketBackgroundPictureBox != null)
             {
                 MarketPricePictureBox.Parent = MarketBackgroundPictureBox;
                 MarketPricePictureBox.BackColor = System.Drawing.Color.Transparent;
+                MarketPricePictureBox.Visible = false;
+                MarketPricePictureBox.Enabled = false;
             }
 
             if (MarketEvaluationPictureBox != null && MarketBackgroundPictureBox != null)
@@ -61,6 +56,13 @@ namespace MonopolyGildedAgeCompanionApp
             {
                 MarketFutureIndicatorPictureBox.Parent = MarketBackgroundPictureBox;
                 MarketFutureIndicatorPictureBox.BackColor = System.Drawing.Color.Transparent;
+            }
+
+            if (MarketLabel != null && MarketBackgroundPictureBox != null)
+            {
+                MarketLabel.Parent = MarketBackgroundPictureBox;
+                MarketLabel.BackColor = System.Drawing.Color.Transparent;
+                //MarketNameLabel.Visible = false;
             }
         }
 
@@ -80,7 +82,7 @@ namespace MonopolyGildedAgeCompanionApp
 
         void SetPriceImage(int newPrice)
         {
-
+            MarketLabel.Text = $"${newPrice}";
         }
 
         void SetEvaluationImage(int evaluationScore)
@@ -135,7 +137,7 @@ namespace MonopolyGildedAgeCompanionApp
             }
             if (indicatorScore == 2)
             {
-                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Rise; // Todo: fix this later
+                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Large_Rise;
             }
         }
     }

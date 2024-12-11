@@ -250,7 +250,7 @@ namespace MonopolyGildedAgeCompanionApp
                     int priceDifference = futurePrice - currentPrice;
 
                     // Check for significant price differences.
-                    if (priceDifference <= -30)
+                    if (priceDifference <= -40)
                     {
                         PriceChart[i].FutureIndicator = -2; // Large price drop
                         break;
@@ -260,7 +260,7 @@ namespace MonopolyGildedAgeCompanionApp
                         PriceChart[i].FutureIndicator = -1; // Moderate price drop
                         break;
                     }
-                    else if (priceDifference >= 30)
+                    else if (priceDifference >= 40)
                     {
                         PriceChart[i].FutureIndicator = 2; // Large price increase
                         break;

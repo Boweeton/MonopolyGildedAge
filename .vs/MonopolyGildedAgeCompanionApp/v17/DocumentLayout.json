@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|c:\\users\\luker\\documents\\github repos\\monopolygildedage\\monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|c:\\users\\luker\\documents\\github repos\\monopolygildedage\\monopolygildedagecompanionapp\\marketformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\marketformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|c:\\users\\luker\\documents\\github repos\\monopolygildedage\\monopolygildedagecompanionapp\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|c:\\users\\luker\\documents\\github repos\\monopolygildedage\\monopolygildedagecompanionapp\\marketstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\marketstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|c:\\users\\luker\\documents\\github repos\\monopolygildedage\\monopolygildedagecompanionapp\\marketformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\marketformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|c:\\users\\luker\\documents\\github repos\\monopolygildedage\\monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DB1FAB-D1E0-4D32-A3D3-F9F89BAACC1A}|MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj|solutionrelative:monopolygildedagecompanionapp\\mainappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GameEngine.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\GameEngine.cs",
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\GameEngine.cs",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Market.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\Market.cs",
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\Market.cs",
               "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\Market.cs",
               "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\Market.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAuwMsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAwAYBAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T00:51:01.622Z",
               "IsPinned": true,
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MarketState.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MarketState.cs",
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\MarketState.cs",
@@ -79,21 +79,25 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MarketFormsController.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MarketFormsController.cs",
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\MarketFormsController.cs",
               "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MarketFormsController.cs",
               "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\MarketFormsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwEcAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T02:44:57.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainAppForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
@@ -105,13 +109,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainAppForm.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
               "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
               "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAADgvwYBAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAApwMkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T02:04:41.005Z",
               "EditorCaption": ""

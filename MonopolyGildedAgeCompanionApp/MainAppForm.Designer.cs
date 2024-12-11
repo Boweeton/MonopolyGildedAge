@@ -29,40 +29,40 @@
         private void InitializeComponent()
         {
             panel_StockMarketAggriculture = new Panel();
-            pictureBox_StockMarketAggriculture_Price = new PictureBox();
-            label_StockMarketAggriculture = new Label();
-            pictureBox_StockMarketAggriculture_Evaluation = new PictureBox();
             pictureBox_StockMarketAggriculture_FutureIndicator = new PictureBox();
+            pictureBox_StockMarketAggriculture_Evaluation = new PictureBox();
+            label_StockMarketAggriculture = new Label();
+            pictureBox_StockMarketAggriculture_Price = new PictureBox();
             pictureBox_StockMarketAggriculture_Background = new PictureBox();
             panel_StockMarketTextiles = new Panel();
-            pictureBox_StockMarketTextiles_Price = new PictureBox();
-            label_StockMarketTextiles = new Label();
-            pictureBox_StockMarketTextiles_Evaluation = new PictureBox();
             pictureBox_StockMarketTextiles_FutureIndicator = new PictureBox();
+            pictureBox_StockMarketTextiles_Evaluation = new PictureBox();
+            label_StockMarketTextiles = new Label();
+            pictureBox_StockMarketTextiles_Price = new PictureBox();
             pictureBox_StockMarketTextiles_Background = new PictureBox();
             panel_StockMarketOil = new Panel();
-            pictureBox_StockMarketOil_Price = new PictureBox();
-            label_StockMarketOil = new Label();
-            pictureBox_StockMarketOil_Evaluation = new PictureBox();
             pictureBox_StockMarketOil_FutureIndicator = new PictureBox();
+            pictureBox_StockMarketOil_Evaluation = new PictureBox();
+            label_StockMarketOil = new Label();
+            pictureBox_StockMarketOil_Price = new PictureBox();
             pictureBox_StockMarketOil_Background = new PictureBox();
             panel_StockMarketPharma = new Panel();
-            pictureBox_StockMarketPharma_Price = new PictureBox();
-            label_StockMarketPharma = new Label();
-            pictureBox_StockMarketPharma_Evaluation = new PictureBox();
             pictureBox_StockMarketPharma_FutureIndicator = new PictureBox();
+            pictureBox_StockMarketPharma_Evaluation = new PictureBox();
+            label_StockMarketPharma = new Label();
+            pictureBox_StockMarketPharma_Price = new PictureBox();
             pictureBox_StockMarketPharma_Background = new PictureBox();
             panel_StockMarketSteel = new Panel();
-            pictureBox_StockMarketSteel_Price = new PictureBox();
-            label_StockMarketSteel = new Label();
-            pictureBox_StockMarketSteel_Evaluation = new PictureBox();
             pictureBox_StockMarketSteel_FutureIndicator = new PictureBox();
+            pictureBox_StockMarketSteel_Evaluation = new PictureBox();
+            label_StockMarketSteel = new Label();
+            pictureBox_StockMarketSteel_Price = new PictureBox();
             pictureBox_StockMarketSteel_Background = new PictureBox();
             panel_GoodsMarket = new Panel();
-            pictureBox_GoodsMarket_Price = new PictureBox();
-            label_GoodsMarket = new Label();
-            pictureBox_GoodsMarket_Evaluation = new PictureBox();
             pictureBox_GoodsMarket_FutureIndicator = new PictureBox();
+            pictureBox_GoodsMarket_Evaluation = new PictureBox();
+            label_GoodsMarket = new Label();
+            pictureBox_GoodsMarket_Price = new PictureBox();
             pictureBox_GoodsMarket_Background = new PictureBox();
             pictureBox_HouseMarket_Brown_FutureIndicator = new PictureBox();
             pictureBox_HouseMarket_Brown_Evaluation = new PictureBox();
@@ -70,14 +70,6 @@
             label2 = new Label();
             label3 = new Label();
             panel_HousingMarketFullDisplay = new Panel();
-            pictureBox_HouseMarket_Blue_Evaluation = new PictureBox();
-            label1 = new Label();
-            pictureBox_HouseMarket_Green_Evaluation = new PictureBox();
-            pictureBox_HouseMarket_Yellow_Evaluation = new PictureBox();
-            pictureBox_HouseMarket_Red_Evaluation = new PictureBox();
-            pictureBox_HouseMarket_Orange_Evaluation = new PictureBox();
-            pictureBox_HouseMarket_Purple_Evaluation = new PictureBox();
-            pictureBox_HouseMarket_LightBlue_Evaluation = new PictureBox();
             pictureBox_HouseMarket_Blue_FutureIndicator = new PictureBox();
             pictureBox_HouseMarket_Green_FutureIndicator = new PictureBox();
             pictureBox_HouseMarket_Yellow_FutureIndicator = new PictureBox();
@@ -85,6 +77,22 @@
             pictureBox_HouseMarket_Orange_FutureIndicator = new PictureBox();
             pictureBox_HouseMarket_Purple_FutureIndicator = new PictureBox();
             pictureBox_HouseMarket_LightBlue_FutureIndicator = new PictureBox();
+            pictureBox_HouseMarket_Blue_Evaluation = new PictureBox();
+            pictureBox_HouseMarket_Green_Evaluation = new PictureBox();
+            pictureBox_HouseMarket_Yellow_Evaluation = new PictureBox();
+            pictureBox_HouseMarket_Red_Evaluation = new PictureBox();
+            pictureBox_HouseMarket_Orange_Evaluation = new PictureBox();
+            pictureBox_HouseMarket_Purple_Evaluation = new PictureBox();
+            pictureBox_HouseMarket_LightBlue_Evaluation = new PictureBox();
+            label_HouseMarket_Blue = new Label();
+            label_HouseMarket_Green = new Label();
+            label_HouseMarket_Yellow = new Label();
+            label_HouseMarket_Red = new Label();
+            label_HouseMarket_Orange = new Label();
+            label_HouseMarket_Purple = new Label();
+            label_HouseMarket_LightBlue = new Label();
+            label_HouseMarket_Brown = new Label();
+            label1 = new Label();
             pictureBox_HouseMarket_Blue_Price = new PictureBox();
             pictureBox_HouseMarket_Green_Price = new PictureBox();
             pictureBox_HouseMarket_Yellow_Price = new PictureBox();
@@ -100,46 +108,39 @@
             button_MarketShiftForward = new Button();
             label4 = new Label();
             panel_StockMarketAggriculture.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Price).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Background).BeginInit();
             panel_StockMarketTextiles.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Price).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Background).BeginInit();
             panel_StockMarketOil.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Price).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Background).BeginInit();
             panel_StockMarketPharma.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Price).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Background).BeginInit();
             panel_StockMarketSteel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Price).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Background).BeginInit();
             panel_GoodsMarket.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Price).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Background).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Brown_FutureIndicator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Brown_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Brown_Price).BeginInit();
             panel_HousingMarketFullDisplay.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_Evaluation).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_Evaluation).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_Evaluation).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Red_Evaluation).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Orange_Evaluation).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Purple_Evaluation).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_LightBlue_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_FutureIndicator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_FutureIndicator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_FutureIndicator).BeginInit();
@@ -147,6 +148,13 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Orange_FutureIndicator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Purple_FutureIndicator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_LightBlue_FutureIndicator).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Red_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Orange_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Purple_Evaluation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_LightBlue_Evaluation).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_Price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_Price).BeginInit();
@@ -162,59 +170,59 @@
             // 
             // panel_StockMarketAggriculture
             // 
-            panel_StockMarketAggriculture.Controls.Add(pictureBox_StockMarketAggriculture_Price);
-            panel_StockMarketAggriculture.Controls.Add(label_StockMarketAggriculture);
-            panel_StockMarketAggriculture.Controls.Add(pictureBox_StockMarketAggriculture_Evaluation);
             panel_StockMarketAggriculture.Controls.Add(pictureBox_StockMarketAggriculture_FutureIndicator);
+            panel_StockMarketAggriculture.Controls.Add(pictureBox_StockMarketAggriculture_Evaluation);
+            panel_StockMarketAggriculture.Controls.Add(label_StockMarketAggriculture);
+            panel_StockMarketAggriculture.Controls.Add(pictureBox_StockMarketAggriculture_Price);
             panel_StockMarketAggriculture.Controls.Add(pictureBox_StockMarketAggriculture_Background);
             panel_StockMarketAggriculture.Location = new Point(9, 37);
             panel_StockMarketAggriculture.Name = "panel_StockMarketAggriculture";
             panel_StockMarketAggriculture.Size = new Size(410, 134);
             panel_StockMarketAggriculture.TabIndex = 4;
             // 
-            // pictureBox_StockMarketAggriculture_Price
+            // pictureBox_StockMarketAggriculture_FutureIndicator
             // 
-            pictureBox_StockMarketAggriculture_Price.BackColor = Color.Magenta;
-            pictureBox_StockMarketAggriculture_Price.Image = Properties.Resources.r170;
-            pictureBox_StockMarketAggriculture_Price.Location = new Point(159, 17);
-            pictureBox_StockMarketAggriculture_Price.Name = "pictureBox_StockMarketAggriculture_Price";
-            pictureBox_StockMarketAggriculture_Price.Size = new Size(150, 75);
-            pictureBox_StockMarketAggriculture_Price.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketAggriculture_Price.TabIndex = 0;
-            pictureBox_StockMarketAggriculture_Price.TabStop = false;
-            // 
-            // label_StockMarketAggriculture
-            // 
-            label_StockMarketAggriculture.AutoSize = true;
-            label_StockMarketAggriculture.BackColor = Color.Magenta;
-            label_StockMarketAggriculture.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_StockMarketAggriculture.Location = new Point(94, 10);
-            label_StockMarketAggriculture.Name = "label_StockMarketAggriculture";
-            label_StockMarketAggriculture.Size = new Size(156, 25);
-            label_StockMarketAggriculture.TabIndex = 1;
-            label_StockMarketAggriculture.Text = "Farming Stock";
+            pictureBox_StockMarketAggriculture_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketAggriculture_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Rise;
+            pictureBox_StockMarketAggriculture_FutureIndicator.Location = new Point(352, 43);
+            pictureBox_StockMarketAggriculture_FutureIndicator.Name = "pictureBox_StockMarketAggriculture_FutureIndicator";
+            pictureBox_StockMarketAggriculture_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_StockMarketAggriculture_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketAggriculture_FutureIndicator.TabIndex = 0;
+            pictureBox_StockMarketAggriculture_FutureIndicator.TabStop = false;
             // 
             // pictureBox_StockMarketAggriculture_Evaluation
             // 
             pictureBox_StockMarketAggriculture_Evaluation.BackColor = Color.Magenta;
             pictureBox_StockMarketAggriculture_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
-            pictureBox_StockMarketAggriculture_Evaluation.Location = new Point(129, 89);
+            pictureBox_StockMarketAggriculture_Evaluation.Location = new Point(130, 88);
             pictureBox_StockMarketAggriculture_Evaluation.Name = "pictureBox_StockMarketAggriculture_Evaluation";
             pictureBox_StockMarketAggriculture_Evaluation.Size = new Size(200, 31);
             pictureBox_StockMarketAggriculture_Evaluation.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox_StockMarketAggriculture_Evaluation.TabIndex = 0;
             pictureBox_StockMarketAggriculture_Evaluation.TabStop = false;
             // 
-            // pictureBox_StockMarketAggriculture_FutureIndicator
+            // label_StockMarketAggriculture
             // 
-            pictureBox_StockMarketAggriculture_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketAggriculture_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Rise;
-            pictureBox_StockMarketAggriculture_FutureIndicator.Location = new Point(356, 32);
-            pictureBox_StockMarketAggriculture_FutureIndicator.Name = "pictureBox_StockMarketAggriculture_FutureIndicator";
-            pictureBox_StockMarketAggriculture_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_StockMarketAggriculture_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketAggriculture_FutureIndicator.TabIndex = 0;
-            pictureBox_StockMarketAggriculture_FutureIndicator.TabStop = false;
+            label_StockMarketAggriculture.AutoSize = true;
+            label_StockMarketAggriculture.BackColor = Color.Magenta;
+            label_StockMarketAggriculture.Font = new Font("High Tower Text", 72F);
+            label_StockMarketAggriculture.Location = new Point(133, -17);
+            label_StockMarketAggriculture.Name = "label_StockMarketAggriculture";
+            label_StockMarketAggriculture.Size = new Size(211, 112);
+            label_StockMarketAggriculture.TabIndex = 1;
+            label_StockMarketAggriculture.Text = "$250";
+            // 
+            // pictureBox_StockMarketAggriculture_Price
+            // 
+            pictureBox_StockMarketAggriculture_Price.BackColor = Color.Magenta;
+            pictureBox_StockMarketAggriculture_Price.Image = Properties.Resources.r170;
+            pictureBox_StockMarketAggriculture_Price.Location = new Point(177, 17);
+            pictureBox_StockMarketAggriculture_Price.Name = "pictureBox_StockMarketAggriculture_Price";
+            pictureBox_StockMarketAggriculture_Price.Size = new Size(150, 75);
+            pictureBox_StockMarketAggriculture_Price.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketAggriculture_Price.TabIndex = 0;
+            pictureBox_StockMarketAggriculture_Price.TabStop = false;
             // 
             // pictureBox_StockMarketAggriculture_Background
             // 
@@ -228,37 +236,26 @@
             // 
             // panel_StockMarketTextiles
             // 
-            panel_StockMarketTextiles.Controls.Add(pictureBox_StockMarketTextiles_Price);
-            panel_StockMarketTextiles.Controls.Add(label_StockMarketTextiles);
-            panel_StockMarketTextiles.Controls.Add(pictureBox_StockMarketTextiles_Evaluation);
             panel_StockMarketTextiles.Controls.Add(pictureBox_StockMarketTextiles_FutureIndicator);
+            panel_StockMarketTextiles.Controls.Add(pictureBox_StockMarketTextiles_Evaluation);
+            panel_StockMarketTextiles.Controls.Add(label_StockMarketTextiles);
+            panel_StockMarketTextiles.Controls.Add(pictureBox_StockMarketTextiles_Price);
             panel_StockMarketTextiles.Controls.Add(pictureBox_StockMarketTextiles_Background);
             panel_StockMarketTextiles.Location = new Point(9, 177);
             panel_StockMarketTextiles.Name = "panel_StockMarketTextiles";
             panel_StockMarketTextiles.Size = new Size(410, 134);
             panel_StockMarketTextiles.TabIndex = 4;
             // 
-            // pictureBox_StockMarketTextiles_Price
+            // pictureBox_StockMarketTextiles_FutureIndicator
             // 
-            pictureBox_StockMarketTextiles_Price.BackColor = Color.Magenta;
-            pictureBox_StockMarketTextiles_Price.Image = Properties.Resources.r170;
-            pictureBox_StockMarketTextiles_Price.Location = new Point(159, 17);
-            pictureBox_StockMarketTextiles_Price.Name = "pictureBox_StockMarketTextiles_Price";
-            pictureBox_StockMarketTextiles_Price.Size = new Size(150, 75);
-            pictureBox_StockMarketTextiles_Price.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketTextiles_Price.TabIndex = 0;
-            pictureBox_StockMarketTextiles_Price.TabStop = false;
-            // 
-            // label_StockMarketTextiles
-            // 
-            label_StockMarketTextiles.AutoSize = true;
-            label_StockMarketTextiles.BackColor = Color.Magenta;
-            label_StockMarketTextiles.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_StockMarketTextiles.Location = new Point(94, 10);
-            label_StockMarketTextiles.Name = "label_StockMarketTextiles";
-            label_StockMarketTextiles.Size = new Size(88, 25);
-            label_StockMarketTextiles.TabIndex = 1;
-            label_StockMarketTextiles.Text = "Textiles";
+            pictureBox_StockMarketTextiles_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketTextiles_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_StockMarketTextiles_FutureIndicator.Location = new Point(352, 43);
+            pictureBox_StockMarketTextiles_FutureIndicator.Name = "pictureBox_StockMarketTextiles_FutureIndicator";
+            pictureBox_StockMarketTextiles_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_StockMarketTextiles_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketTextiles_FutureIndicator.TabIndex = 0;
+            pictureBox_StockMarketTextiles_FutureIndicator.TabStop = false;
             // 
             // pictureBox_StockMarketTextiles_Evaluation
             // 
@@ -271,16 +268,27 @@
             pictureBox_StockMarketTextiles_Evaluation.TabIndex = 0;
             pictureBox_StockMarketTextiles_Evaluation.TabStop = false;
             // 
-            // pictureBox_StockMarketTextiles_FutureIndicator
+            // label_StockMarketTextiles
             // 
-            pictureBox_StockMarketTextiles_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketTextiles_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_StockMarketTextiles_FutureIndicator.Location = new Point(356, 32);
-            pictureBox_StockMarketTextiles_FutureIndicator.Name = "pictureBox_StockMarketTextiles_FutureIndicator";
-            pictureBox_StockMarketTextiles_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_StockMarketTextiles_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketTextiles_FutureIndicator.TabIndex = 0;
-            pictureBox_StockMarketTextiles_FutureIndicator.TabStop = false;
+            label_StockMarketTextiles.AutoSize = true;
+            label_StockMarketTextiles.BackColor = Color.Magenta;
+            label_StockMarketTextiles.Font = new Font("High Tower Text", 72F);
+            label_StockMarketTextiles.Location = new Point(134, -11);
+            label_StockMarketTextiles.Name = "label_StockMarketTextiles";
+            label_StockMarketTextiles.Size = new Size(211, 112);
+            label_StockMarketTextiles.TabIndex = 1;
+            label_StockMarketTextiles.Text = "$250";
+            // 
+            // pictureBox_StockMarketTextiles_Price
+            // 
+            pictureBox_StockMarketTextiles_Price.BackColor = Color.Magenta;
+            pictureBox_StockMarketTextiles_Price.Image = Properties.Resources.r170;
+            pictureBox_StockMarketTextiles_Price.Location = new Point(177, 17);
+            pictureBox_StockMarketTextiles_Price.Name = "pictureBox_StockMarketTextiles_Price";
+            pictureBox_StockMarketTextiles_Price.Size = new Size(150, 75);
+            pictureBox_StockMarketTextiles_Price.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketTextiles_Price.TabIndex = 0;
+            pictureBox_StockMarketTextiles_Price.TabStop = false;
             // 
             // pictureBox_StockMarketTextiles_Background
             // 
@@ -294,37 +302,26 @@
             // 
             // panel_StockMarketOil
             // 
-            panel_StockMarketOil.Controls.Add(pictureBox_StockMarketOil_Price);
-            panel_StockMarketOil.Controls.Add(label_StockMarketOil);
-            panel_StockMarketOil.Controls.Add(pictureBox_StockMarketOil_Evaluation);
             panel_StockMarketOil.Controls.Add(pictureBox_StockMarketOil_FutureIndicator);
+            panel_StockMarketOil.Controls.Add(pictureBox_StockMarketOil_Evaluation);
+            panel_StockMarketOil.Controls.Add(label_StockMarketOil);
+            panel_StockMarketOil.Controls.Add(pictureBox_StockMarketOil_Price);
             panel_StockMarketOil.Controls.Add(pictureBox_StockMarketOil_Background);
             panel_StockMarketOil.Location = new Point(9, 317);
             panel_StockMarketOil.Name = "panel_StockMarketOil";
             panel_StockMarketOil.Size = new Size(410, 134);
             panel_StockMarketOil.TabIndex = 4;
             // 
-            // pictureBox_StockMarketOil_Price
+            // pictureBox_StockMarketOil_FutureIndicator
             // 
-            pictureBox_StockMarketOil_Price.BackColor = Color.Magenta;
-            pictureBox_StockMarketOil_Price.Image = Properties.Resources.r170;
-            pictureBox_StockMarketOil_Price.Location = new Point(159, 17);
-            pictureBox_StockMarketOil_Price.Name = "pictureBox_StockMarketOil_Price";
-            pictureBox_StockMarketOil_Price.Size = new Size(150, 75);
-            pictureBox_StockMarketOil_Price.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketOil_Price.TabIndex = 0;
-            pictureBox_StockMarketOil_Price.TabStop = false;
-            // 
-            // label_StockMarketOil
-            // 
-            label_StockMarketOil.AutoSize = true;
-            label_StockMarketOil.BackColor = Color.Magenta;
-            label_StockMarketOil.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_StockMarketOil.Location = new Point(94, 10);
-            label_StockMarketOil.Name = "label_StockMarketOil";
-            label_StockMarketOil.Size = new Size(41, 25);
-            label_StockMarketOil.TabIndex = 1;
-            label_StockMarketOil.Text = "Oil";
+            pictureBox_StockMarketOil_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketOil_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Large_Fall;
+            pictureBox_StockMarketOil_FutureIndicator.Location = new Point(352, 43);
+            pictureBox_StockMarketOil_FutureIndicator.Name = "pictureBox_StockMarketOil_FutureIndicator";
+            pictureBox_StockMarketOil_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_StockMarketOil_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketOil_FutureIndicator.TabIndex = 0;
+            pictureBox_StockMarketOil_FutureIndicator.TabStop = false;
             // 
             // pictureBox_StockMarketOil_Evaluation
             // 
@@ -337,16 +334,27 @@
             pictureBox_StockMarketOil_Evaluation.TabIndex = 0;
             pictureBox_StockMarketOil_Evaluation.TabStop = false;
             // 
-            // pictureBox_StockMarketOil_FutureIndicator
+            // label_StockMarketOil
             // 
-            pictureBox_StockMarketOil_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketOil_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Large_Fall;
-            pictureBox_StockMarketOil_FutureIndicator.Location = new Point(356, 32);
-            pictureBox_StockMarketOil_FutureIndicator.Name = "pictureBox_StockMarketOil_FutureIndicator";
-            pictureBox_StockMarketOil_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_StockMarketOil_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketOil_FutureIndicator.TabIndex = 0;
-            pictureBox_StockMarketOil_FutureIndicator.TabStop = false;
+            label_StockMarketOil.AutoSize = true;
+            label_StockMarketOil.BackColor = Color.Magenta;
+            label_StockMarketOil.Font = new Font("High Tower Text", 72F);
+            label_StockMarketOil.Location = new Point(137, -18);
+            label_StockMarketOil.Name = "label_StockMarketOil";
+            label_StockMarketOil.Size = new Size(211, 112);
+            label_StockMarketOil.TabIndex = 1;
+            label_StockMarketOil.Text = "$250";
+            // 
+            // pictureBox_StockMarketOil_Price
+            // 
+            pictureBox_StockMarketOil_Price.BackColor = Color.Magenta;
+            pictureBox_StockMarketOil_Price.Image = Properties.Resources.r170;
+            pictureBox_StockMarketOil_Price.Location = new Point(177, 17);
+            pictureBox_StockMarketOil_Price.Name = "pictureBox_StockMarketOil_Price";
+            pictureBox_StockMarketOil_Price.Size = new Size(150, 75);
+            pictureBox_StockMarketOil_Price.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketOil_Price.TabIndex = 0;
+            pictureBox_StockMarketOil_Price.TabStop = false;
             // 
             // pictureBox_StockMarketOil_Background
             // 
@@ -360,37 +368,26 @@
             // 
             // panel_StockMarketPharma
             // 
-            panel_StockMarketPharma.Controls.Add(pictureBox_StockMarketPharma_Price);
-            panel_StockMarketPharma.Controls.Add(label_StockMarketPharma);
-            panel_StockMarketPharma.Controls.Add(pictureBox_StockMarketPharma_Evaluation);
             panel_StockMarketPharma.Controls.Add(pictureBox_StockMarketPharma_FutureIndicator);
+            panel_StockMarketPharma.Controls.Add(pictureBox_StockMarketPharma_Evaluation);
+            panel_StockMarketPharma.Controls.Add(label_StockMarketPharma);
+            panel_StockMarketPharma.Controls.Add(pictureBox_StockMarketPharma_Price);
             panel_StockMarketPharma.Controls.Add(pictureBox_StockMarketPharma_Background);
             panel_StockMarketPharma.Location = new Point(9, 457);
             panel_StockMarketPharma.Name = "panel_StockMarketPharma";
             panel_StockMarketPharma.Size = new Size(410, 134);
             panel_StockMarketPharma.TabIndex = 4;
             // 
-            // pictureBox_StockMarketPharma_Price
+            // pictureBox_StockMarketPharma_FutureIndicator
             // 
-            pictureBox_StockMarketPharma_Price.BackColor = Color.Magenta;
-            pictureBox_StockMarketPharma_Price.Image = Properties.Resources.r170;
-            pictureBox_StockMarketPharma_Price.Location = new Point(159, 17);
-            pictureBox_StockMarketPharma_Price.Name = "pictureBox_StockMarketPharma_Price";
-            pictureBox_StockMarketPharma_Price.Size = new Size(150, 75);
-            pictureBox_StockMarketPharma_Price.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketPharma_Price.TabIndex = 0;
-            pictureBox_StockMarketPharma_Price.TabStop = false;
-            // 
-            // label_StockMarketPharma
-            // 
-            label_StockMarketPharma.AutoSize = true;
-            label_StockMarketPharma.BackColor = Color.Magenta;
-            label_StockMarketPharma.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_StockMarketPharma.Location = new Point(94, 10);
-            label_StockMarketPharma.Name = "label_StockMarketPharma";
-            label_StockMarketPharma.Size = new Size(89, 25);
-            label_StockMarketPharma.TabIndex = 1;
-            label_StockMarketPharma.Text = "Pharma";
+            pictureBox_StockMarketPharma_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketPharma_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Fall;
+            pictureBox_StockMarketPharma_FutureIndicator.Location = new Point(352, 43);
+            pictureBox_StockMarketPharma_FutureIndicator.Name = "pictureBox_StockMarketPharma_FutureIndicator";
+            pictureBox_StockMarketPharma_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_StockMarketPharma_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketPharma_FutureIndicator.TabIndex = 0;
+            pictureBox_StockMarketPharma_FutureIndicator.TabStop = false;
             // 
             // pictureBox_StockMarketPharma_Evaluation
             // 
@@ -403,16 +400,27 @@
             pictureBox_StockMarketPharma_Evaluation.TabIndex = 0;
             pictureBox_StockMarketPharma_Evaluation.TabStop = false;
             // 
-            // pictureBox_StockMarketPharma_FutureIndicator
+            // label_StockMarketPharma
             // 
-            pictureBox_StockMarketPharma_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketPharma_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Fall;
-            pictureBox_StockMarketPharma_FutureIndicator.Location = new Point(356, 32);
-            pictureBox_StockMarketPharma_FutureIndicator.Name = "pictureBox_StockMarketPharma_FutureIndicator";
-            pictureBox_StockMarketPharma_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_StockMarketPharma_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketPharma_FutureIndicator.TabIndex = 0;
-            pictureBox_StockMarketPharma_FutureIndicator.TabStop = false;
+            label_StockMarketPharma.AutoSize = true;
+            label_StockMarketPharma.BackColor = Color.Magenta;
+            label_StockMarketPharma.Font = new Font("High Tower Text", 72F);
+            label_StockMarketPharma.Location = new Point(138, -19);
+            label_StockMarketPharma.Name = "label_StockMarketPharma";
+            label_StockMarketPharma.Size = new Size(211, 112);
+            label_StockMarketPharma.TabIndex = 1;
+            label_StockMarketPharma.Text = "$250";
+            // 
+            // pictureBox_StockMarketPharma_Price
+            // 
+            pictureBox_StockMarketPharma_Price.BackColor = Color.Magenta;
+            pictureBox_StockMarketPharma_Price.Image = Properties.Resources.r170;
+            pictureBox_StockMarketPharma_Price.Location = new Point(177, 17);
+            pictureBox_StockMarketPharma_Price.Name = "pictureBox_StockMarketPharma_Price";
+            pictureBox_StockMarketPharma_Price.Size = new Size(150, 75);
+            pictureBox_StockMarketPharma_Price.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketPharma_Price.TabIndex = 0;
+            pictureBox_StockMarketPharma_Price.TabStop = false;
             // 
             // pictureBox_StockMarketPharma_Background
             // 
@@ -426,37 +434,26 @@
             // 
             // panel_StockMarketSteel
             // 
-            panel_StockMarketSteel.Controls.Add(pictureBox_StockMarketSteel_Price);
-            panel_StockMarketSteel.Controls.Add(label_StockMarketSteel);
-            panel_StockMarketSteel.Controls.Add(pictureBox_StockMarketSteel_Evaluation);
             panel_StockMarketSteel.Controls.Add(pictureBox_StockMarketSteel_FutureIndicator);
+            panel_StockMarketSteel.Controls.Add(pictureBox_StockMarketSteel_Evaluation);
+            panel_StockMarketSteel.Controls.Add(label_StockMarketSteel);
+            panel_StockMarketSteel.Controls.Add(pictureBox_StockMarketSteel_Price);
             panel_StockMarketSteel.Controls.Add(pictureBox_StockMarketSteel_Background);
             panel_StockMarketSteel.Location = new Point(9, 597);
             panel_StockMarketSteel.Name = "panel_StockMarketSteel";
             panel_StockMarketSteel.Size = new Size(410, 134);
             panel_StockMarketSteel.TabIndex = 4;
             // 
-            // pictureBox_StockMarketSteel_Price
+            // pictureBox_StockMarketSteel_FutureIndicator
             // 
-            pictureBox_StockMarketSteel_Price.BackColor = Color.Magenta;
-            pictureBox_StockMarketSteel_Price.Image = Properties.Resources.r170;
-            pictureBox_StockMarketSteel_Price.Location = new Point(159, 17);
-            pictureBox_StockMarketSteel_Price.Name = "pictureBox_StockMarketSteel_Price";
-            pictureBox_StockMarketSteel_Price.Size = new Size(150, 75);
-            pictureBox_StockMarketSteel_Price.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketSteel_Price.TabIndex = 0;
-            pictureBox_StockMarketSteel_Price.TabStop = false;
-            // 
-            // label_StockMarketSteel
-            // 
-            label_StockMarketSteel.AutoSize = true;
-            label_StockMarketSteel.BackColor = Color.Magenta;
-            label_StockMarketSteel.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_StockMarketSteel.Location = new Point(94, 10);
-            label_StockMarketSteel.Name = "label_StockMarketSteel";
-            label_StockMarketSteel.Size = new Size(61, 25);
-            label_StockMarketSteel.TabIndex = 1;
-            label_StockMarketSteel.Text = "Steel";
+            pictureBox_StockMarketSteel_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketSteel_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Large_Rise;
+            pictureBox_StockMarketSteel_FutureIndicator.Location = new Point(352, 43);
+            pictureBox_StockMarketSteel_FutureIndicator.Name = "pictureBox_StockMarketSteel_FutureIndicator";
+            pictureBox_StockMarketSteel_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_StockMarketSteel_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketSteel_FutureIndicator.TabIndex = 0;
+            pictureBox_StockMarketSteel_FutureIndicator.TabStop = false;
             // 
             // pictureBox_StockMarketSteel_Evaluation
             // 
@@ -469,16 +466,27 @@
             pictureBox_StockMarketSteel_Evaluation.TabIndex = 0;
             pictureBox_StockMarketSteel_Evaluation.TabStop = false;
             // 
-            // pictureBox_StockMarketSteel_FutureIndicator
+            // label_StockMarketSteel
             // 
-            pictureBox_StockMarketSteel_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketSteel_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_StockMarketSteel_FutureIndicator.Location = new Point(356, 32);
-            pictureBox_StockMarketSteel_FutureIndicator.Name = "pictureBox_StockMarketSteel_FutureIndicator";
-            pictureBox_StockMarketSteel_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_StockMarketSteel_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_StockMarketSteel_FutureIndicator.TabIndex = 0;
-            pictureBox_StockMarketSteel_FutureIndicator.TabStop = false;
+            label_StockMarketSteel.AutoSize = true;
+            label_StockMarketSteel.BackColor = Color.Magenta;
+            label_StockMarketSteel.Font = new Font("High Tower Text", 72F);
+            label_StockMarketSteel.Location = new Point(127, -11);
+            label_StockMarketSteel.Name = "label_StockMarketSteel";
+            label_StockMarketSteel.Size = new Size(211, 112);
+            label_StockMarketSteel.TabIndex = 1;
+            label_StockMarketSteel.Text = "$250";
+            // 
+            // pictureBox_StockMarketSteel_Price
+            // 
+            pictureBox_StockMarketSteel_Price.BackColor = Color.Magenta;
+            pictureBox_StockMarketSteel_Price.Image = Properties.Resources.r170;
+            pictureBox_StockMarketSteel_Price.Location = new Point(177, 17);
+            pictureBox_StockMarketSteel_Price.Name = "pictureBox_StockMarketSteel_Price";
+            pictureBox_StockMarketSteel_Price.Size = new Size(150, 75);
+            pictureBox_StockMarketSteel_Price.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_StockMarketSteel_Price.TabIndex = 0;
+            pictureBox_StockMarketSteel_Price.TabStop = false;
             // 
             // pictureBox_StockMarketSteel_Background
             // 
@@ -492,37 +500,26 @@
             // 
             // panel_GoodsMarket
             // 
-            panel_GoodsMarket.Controls.Add(pictureBox_GoodsMarket_Price);
-            panel_GoodsMarket.Controls.Add(label_GoodsMarket);
-            panel_GoodsMarket.Controls.Add(pictureBox_GoodsMarket_Evaluation);
             panel_GoodsMarket.Controls.Add(pictureBox_GoodsMarket_FutureIndicator);
+            panel_GoodsMarket.Controls.Add(pictureBox_GoodsMarket_Evaluation);
+            panel_GoodsMarket.Controls.Add(label_GoodsMarket);
+            panel_GoodsMarket.Controls.Add(pictureBox_GoodsMarket_Price);
             panel_GoodsMarket.Controls.Add(pictureBox_GoodsMarket_Background);
             panel_GoodsMarket.Location = new Point(3, 32);
             panel_GoodsMarket.Name = "panel_GoodsMarket";
             panel_GoodsMarket.Size = new Size(416, 134);
             panel_GoodsMarket.TabIndex = 4;
             // 
-            // pictureBox_GoodsMarket_Price
+            // pictureBox_GoodsMarket_FutureIndicator
             // 
-            pictureBox_GoodsMarket_Price.BackColor = Color.Magenta;
-            pictureBox_GoodsMarket_Price.Image = Properties.Resources.r170;
-            pictureBox_GoodsMarket_Price.Location = new Point(159, 17);
-            pictureBox_GoodsMarket_Price.Name = "pictureBox_GoodsMarket_Price";
-            pictureBox_GoodsMarket_Price.Size = new Size(150, 75);
-            pictureBox_GoodsMarket_Price.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_GoodsMarket_Price.TabIndex = 0;
-            pictureBox_GoodsMarket_Price.TabStop = false;
-            // 
-            // label_GoodsMarket
-            // 
-            label_GoodsMarket.AutoSize = true;
-            label_GoodsMarket.BackColor = Color.Magenta;
-            label_GoodsMarket.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_GoodsMarket.Location = new Point(94, 10);
-            label_GoodsMarket.Name = "label_GoodsMarket";
-            label_GoodsMarket.Size = new Size(161, 25);
-            label_GoodsMarket.TabIndex = 1;
-            label_GoodsMarket.Text = "Factory Goods";
+            pictureBox_GoodsMarket_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_GoodsMarket_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_GoodsMarket_FutureIndicator.Location = new Point(352, 43);
+            pictureBox_GoodsMarket_FutureIndicator.Name = "pictureBox_GoodsMarket_FutureIndicator";
+            pictureBox_GoodsMarket_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_GoodsMarket_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_GoodsMarket_FutureIndicator.TabIndex = 0;
+            pictureBox_GoodsMarket_FutureIndicator.TabStop = false;
             // 
             // pictureBox_GoodsMarket_Evaluation
             // 
@@ -535,16 +532,27 @@
             pictureBox_GoodsMarket_Evaluation.TabIndex = 0;
             pictureBox_GoodsMarket_Evaluation.TabStop = false;
             // 
-            // pictureBox_GoodsMarket_FutureIndicator
+            // label_GoodsMarket
             // 
-            pictureBox_GoodsMarket_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_GoodsMarket_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_GoodsMarket_FutureIndicator.Location = new Point(356, 32);
-            pictureBox_GoodsMarket_FutureIndicator.Name = "pictureBox_GoodsMarket_FutureIndicator";
-            pictureBox_GoodsMarket_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_GoodsMarket_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_GoodsMarket_FutureIndicator.TabIndex = 0;
-            pictureBox_GoodsMarket_FutureIndicator.TabStop = false;
+            label_GoodsMarket.AutoSize = true;
+            label_GoodsMarket.BackColor = Color.Magenta;
+            label_GoodsMarket.Font = new Font("High Tower Text", 72F);
+            label_GoodsMarket.Location = new Point(124, -9);
+            label_GoodsMarket.Name = "label_GoodsMarket";
+            label_GoodsMarket.Size = new Size(211, 112);
+            label_GoodsMarket.TabIndex = 1;
+            label_GoodsMarket.Text = "$250";
+            // 
+            // pictureBox_GoodsMarket_Price
+            // 
+            pictureBox_GoodsMarket_Price.BackColor = Color.Magenta;
+            pictureBox_GoodsMarket_Price.Image = Properties.Resources.r170;
+            pictureBox_GoodsMarket_Price.Location = new Point(177, 17);
+            pictureBox_GoodsMarket_Price.Name = "pictureBox_GoodsMarket_Price";
+            pictureBox_GoodsMarket_Price.Size = new Size(150, 75);
+            pictureBox_GoodsMarket_Price.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_GoodsMarket_Price.TabIndex = 0;
+            pictureBox_GoodsMarket_Price.TabStop = false;
             // 
             // pictureBox_GoodsMarket_Background
             // 
@@ -560,9 +568,9 @@
             // 
             pictureBox_HouseMarket_Brown_FutureIndicator.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Brown_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Brown_FutureIndicator.Location = new Point(686, 832);
+            pictureBox_HouseMarket_Brown_FutureIndicator.Location = new Point(695, 859);
             pictureBox_HouseMarket_Brown_FutureIndicator.Name = "pictureBox_HouseMarket_Brown_FutureIndicator";
-            pictureBox_HouseMarket_Brown_FutureIndicator.Size = new Size(29, 60);
+            pictureBox_HouseMarket_Brown_FutureIndicator.Size = new Size(21, 42);
             pictureBox_HouseMarket_Brown_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox_HouseMarket_Brown_FutureIndicator.TabIndex = 0;
             pictureBox_HouseMarket_Brown_FutureIndicator.TabStop = false;
@@ -582,7 +590,7 @@
             // 
             pictureBox_HouseMarket_Brown_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Brown_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Brown_Price.Location = new Point(525, 823);
+            pictureBox_HouseMarket_Brown_Price.Location = new Point(533, 823);
             pictureBox_HouseMarket_Brown_Price.Name = "pictureBox_HouseMarket_Brown_Price";
             pictureBox_HouseMarket_Brown_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Brown_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -614,15 +622,6 @@
             // panel_HousingMarketFullDisplay
             // 
             panel_HousingMarketFullDisplay.BorderStyle = BorderStyle.Fixed3D;
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Blue_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(label1);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Green_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Yellow_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Red_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Orange_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Purple_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_LightBlue_Evaluation);
-            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Brown_Evaluation);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Blue_FutureIndicator);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Green_FutureIndicator);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Yellow_FutureIndicator);
@@ -631,6 +630,23 @@
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Purple_FutureIndicator);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_LightBlue_FutureIndicator);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Brown_FutureIndicator);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Blue_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Green_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Yellow_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Red_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Orange_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Purple_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_LightBlue_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Brown_Evaluation);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Blue);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Green);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Yellow);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Red);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Orange);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Purple);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_LightBlue);
+            panel_HousingMarketFullDisplay.Controls.Add(label_HouseMarket_Brown);
+            panel_HousingMarketFullDisplay.Controls.Add(label1);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Blue_Price);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Green_Price);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Yellow_Price);
@@ -645,6 +661,83 @@
             panel_HousingMarketFullDisplay.Size = new Size(1020, 1010);
             panel_HousingMarketFullDisplay.TabIndex = 5;
             // 
+            // pictureBox_HouseMarket_Blue_FutureIndicator
+            // 
+            pictureBox_HouseMarket_Blue_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Blue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Blue_FutureIndicator.Location = new Point(930, 621);
+            pictureBox_HouseMarket_Blue_FutureIndicator.Name = "pictureBox_HouseMarket_Blue_FutureIndicator";
+            pictureBox_HouseMarket_Blue_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_Blue_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_Blue_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_Blue_FutureIndicator.TabStop = false;
+            // 
+            // pictureBox_HouseMarket_Green_FutureIndicator
+            // 
+            pictureBox_HouseMarket_Green_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Green_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Green_FutureIndicator.Location = new Point(930, 380);
+            pictureBox_HouseMarket_Green_FutureIndicator.Name = "pictureBox_HouseMarket_Green_FutureIndicator";
+            pictureBox_HouseMarket_Green_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_Green_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_Green_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_Green_FutureIndicator.TabStop = false;
+            // 
+            // pictureBox_HouseMarket_Yellow_FutureIndicator
+            // 
+            pictureBox_HouseMarket_Yellow_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Yellow_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Yellow_FutureIndicator.Location = new Point(695, 142);
+            pictureBox_HouseMarket_Yellow_FutureIndicator.Name = "pictureBox_HouseMarket_Yellow_FutureIndicator";
+            pictureBox_HouseMarket_Yellow_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_Yellow_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_Yellow_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_Yellow_FutureIndicator.TabStop = false;
+            // 
+            // pictureBox_HouseMarket_Red_FutureIndicator
+            // 
+            pictureBox_HouseMarket_Red_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Red_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Red_FutureIndicator.Location = new Point(453, 149);
+            pictureBox_HouseMarket_Red_FutureIndicator.Name = "pictureBox_HouseMarket_Red_FutureIndicator";
+            pictureBox_HouseMarket_Red_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_Red_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_Red_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_Red_FutureIndicator.TabStop = false;
+            // 
+            // pictureBox_HouseMarket_Orange_FutureIndicator
+            // 
+            pictureBox_HouseMarket_Orange_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Orange_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Orange_FutureIndicator.Location = new Point(215, 380);
+            pictureBox_HouseMarket_Orange_FutureIndicator.Name = "pictureBox_HouseMarket_Orange_FutureIndicator";
+            pictureBox_HouseMarket_Orange_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_Orange_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_Orange_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_Orange_FutureIndicator.TabStop = false;
+            // 
+            // pictureBox_HouseMarket_Purple_FutureIndicator
+            // 
+            pictureBox_HouseMarket_Purple_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Purple_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_Purple_FutureIndicator.Location = new Point(215, 621);
+            pictureBox_HouseMarket_Purple_FutureIndicator.Name = "pictureBox_HouseMarket_Purple_FutureIndicator";
+            pictureBox_HouseMarket_Purple_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_Purple_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_Purple_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_Purple_FutureIndicator.TabStop = false;
+            // 
+            // pictureBox_HouseMarket_LightBlue_FutureIndicator
+            // 
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.Location = new Point(454, 859);
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.Name = "pictureBox_HouseMarket_LightBlue_FutureIndicator";
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.Size = new Size(21, 42);
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.TabIndex = 0;
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.TabStop = false;
+            // 
             // pictureBox_HouseMarket_Blue_Evaluation
             // 
             pictureBox_HouseMarket_Blue_Evaluation.BackColor = Color.Magenta;
@@ -655,17 +748,6 @@
             pictureBox_HouseMarket_Blue_Evaluation.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox_HouseMarket_Blue_Evaluation.TabIndex = 0;
             pictureBox_HouseMarket_Blue_Evaluation.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 5);
-            label1.Name = "label1";
-            label1.Size = new Size(170, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Housing Market";
             // 
             // pictureBox_HouseMarket_Green_Evaluation
             // 
@@ -733,88 +815,110 @@
             pictureBox_HouseMarket_LightBlue_Evaluation.TabIndex = 0;
             pictureBox_HouseMarket_LightBlue_Evaluation.TabStop = false;
             // 
-            // pictureBox_HouseMarket_Blue_FutureIndicator
+            // label_HouseMarket_Blue
             // 
-            pictureBox_HouseMarket_Blue_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Blue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Blue_FutureIndicator.Location = new Point(921, 594);
-            pictureBox_HouseMarket_Blue_FutureIndicator.Name = "pictureBox_HouseMarket_Blue_FutureIndicator";
-            pictureBox_HouseMarket_Blue_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_Blue_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_Blue_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_Blue_FutureIndicator.TabStop = false;
+            label_HouseMarket_Blue.AutoSize = true;
+            label_HouseMarket_Blue.BackColor = Color.Magenta;
+            label_HouseMarket_Blue.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Blue.Location = new Point(728, 563);
+            label_HouseMarket_Blue.Name = "label_HouseMarket_Blue";
+            label_HouseMarket_Blue.Size = new Size(211, 112);
+            label_HouseMarket_Blue.TabIndex = 9;
+            label_HouseMarket_Blue.Text = "$250";
             // 
-            // pictureBox_HouseMarket_Green_FutureIndicator
+            // label_HouseMarket_Green
             // 
-            pictureBox_HouseMarket_Green_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Green_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Green_FutureIndicator.Location = new Point(921, 353);
-            pictureBox_HouseMarket_Green_FutureIndicator.Name = "pictureBox_HouseMarket_Green_FutureIndicator";
-            pictureBox_HouseMarket_Green_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_Green_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_Green_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_Green_FutureIndicator.TabStop = false;
+            label_HouseMarket_Green.AutoSize = true;
+            label_HouseMarket_Green.BackColor = Color.Magenta;
+            label_HouseMarket_Green.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Green.Location = new Point(728, 322);
+            label_HouseMarket_Green.Name = "label_HouseMarket_Green";
+            label_HouseMarket_Green.Size = new Size(211, 112);
+            label_HouseMarket_Green.TabIndex = 9;
+            label_HouseMarket_Green.Text = "$250";
             // 
-            // pictureBox_HouseMarket_Yellow_FutureIndicator
+            // label_HouseMarket_Yellow
             // 
-            pictureBox_HouseMarket_Yellow_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Yellow_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Yellow_FutureIndicator.Location = new Point(686, 115);
-            pictureBox_HouseMarket_Yellow_FutureIndicator.Name = "pictureBox_HouseMarket_Yellow_FutureIndicator";
-            pictureBox_HouseMarket_Yellow_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_Yellow_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_Yellow_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_Yellow_FutureIndicator.TabStop = false;
+            label_HouseMarket_Yellow.AutoSize = true;
+            label_HouseMarket_Yellow.BackColor = Color.Magenta;
+            label_HouseMarket_Yellow.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Yellow.Location = new Point(492, 85);
+            label_HouseMarket_Yellow.Name = "label_HouseMarket_Yellow";
+            label_HouseMarket_Yellow.Size = new Size(211, 112);
+            label_HouseMarket_Yellow.TabIndex = 9;
+            label_HouseMarket_Yellow.Text = "$250";
             // 
-            // pictureBox_HouseMarket_Red_FutureIndicator
+            // label_HouseMarket_Red
             // 
-            pictureBox_HouseMarket_Red_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Red_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Red_FutureIndicator.Location = new Point(444, 122);
-            pictureBox_HouseMarket_Red_FutureIndicator.Name = "pictureBox_HouseMarket_Red_FutureIndicator";
-            pictureBox_HouseMarket_Red_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_Red_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_Red_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_Red_FutureIndicator.TabStop = false;
+            label_HouseMarket_Red.AutoSize = true;
+            label_HouseMarket_Red.BackColor = Color.Magenta;
+            label_HouseMarket_Red.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Red.Location = new Point(252, 85);
+            label_HouseMarket_Red.Name = "label_HouseMarket_Red";
+            label_HouseMarket_Red.Size = new Size(211, 112);
+            label_HouseMarket_Red.TabIndex = 9;
+            label_HouseMarket_Red.Text = "$250";
             // 
-            // pictureBox_HouseMarket_Orange_FutureIndicator
+            // label_HouseMarket_Orange
             // 
-            pictureBox_HouseMarket_Orange_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Orange_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Orange_FutureIndicator.Location = new Point(206, 353);
-            pictureBox_HouseMarket_Orange_FutureIndicator.Name = "pictureBox_HouseMarket_Orange_FutureIndicator";
-            pictureBox_HouseMarket_Orange_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_Orange_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_Orange_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_Orange_FutureIndicator.TabStop = false;
+            label_HouseMarket_Orange.AutoSize = true;
+            label_HouseMarket_Orange.BackColor = Color.Magenta;
+            label_HouseMarket_Orange.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Orange.Location = new Point(15, 312);
+            label_HouseMarket_Orange.Name = "label_HouseMarket_Orange";
+            label_HouseMarket_Orange.Size = new Size(211, 112);
+            label_HouseMarket_Orange.TabIndex = 9;
+            label_HouseMarket_Orange.Text = "$250";
             // 
-            // pictureBox_HouseMarket_Purple_FutureIndicator
+            // label_HouseMarket_Purple
             // 
-            pictureBox_HouseMarket_Purple_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Purple_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_Purple_FutureIndicator.Location = new Point(206, 594);
-            pictureBox_HouseMarket_Purple_FutureIndicator.Name = "pictureBox_HouseMarket_Purple_FutureIndicator";
-            pictureBox_HouseMarket_Purple_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_Purple_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_Purple_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_Purple_FutureIndicator.TabStop = false;
+            label_HouseMarket_Purple.AutoSize = true;
+            label_HouseMarket_Purple.BackColor = Color.Magenta;
+            label_HouseMarket_Purple.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Purple.Location = new Point(15, 557);
+            label_HouseMarket_Purple.Name = "label_HouseMarket_Purple";
+            label_HouseMarket_Purple.Size = new Size(211, 112);
+            label_HouseMarket_Purple.TabIndex = 9;
+            label_HouseMarket_Purple.Text = "$250";
             // 
-            // pictureBox_HouseMarket_LightBlue_FutureIndicator
+            // label_HouseMarket_LightBlue
             // 
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.Location = new Point(445, 832);
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.Name = "pictureBox_HouseMarket_LightBlue_FutureIndicator";
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.Size = new Size(29, 60);
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.TabIndex = 0;
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.TabStop = false;
+            label_HouseMarket_LightBlue.AutoSize = true;
+            label_HouseMarket_LightBlue.BackColor = Color.Magenta;
+            label_HouseMarket_LightBlue.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_LightBlue.Location = new Point(252, 801);
+            label_HouseMarket_LightBlue.Name = "label_HouseMarket_LightBlue";
+            label_HouseMarket_LightBlue.Size = new Size(211, 112);
+            label_HouseMarket_LightBlue.TabIndex = 9;
+            label_HouseMarket_LightBlue.Text = "$250";
+            // 
+            // label_HouseMarket_Brown
+            // 
+            label_HouseMarket_Brown.AutoSize = true;
+            label_HouseMarket_Brown.BackColor = Color.Magenta;
+            label_HouseMarket_Brown.Font = new Font("High Tower Text", 72F);
+            label_HouseMarket_Brown.Location = new Point(492, 801);
+            label_HouseMarket_Brown.Name = "label_HouseMarket_Brown";
+            label_HouseMarket_Brown.Size = new Size(211, 112);
+            label_HouseMarket_Brown.TabIndex = 9;
+            label_HouseMarket_Brown.Text = "$250";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(3, 5);
+            label1.Name = "label1";
+            label1.Size = new Size(170, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Housing Market";
             // 
             // pictureBox_HouseMarket_Blue_Price
             // 
             pictureBox_HouseMarket_Blue_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Blue_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Blue_Price.Location = new Point(760, 587);
+            pictureBox_HouseMarket_Blue_Price.Location = new Point(768, 587);
             pictureBox_HouseMarket_Blue_Price.Name = "pictureBox_HouseMarket_Blue_Price";
             pictureBox_HouseMarket_Blue_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Blue_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -825,7 +929,7 @@
             // 
             pictureBox_HouseMarket_Green_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Green_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Green_Price.Location = new Point(760, 344);
+            pictureBox_HouseMarket_Green_Price.Location = new Point(768, 344);
             pictureBox_HouseMarket_Green_Price.Name = "pictureBox_HouseMarket_Green_Price";
             pictureBox_HouseMarket_Green_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Green_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -836,7 +940,7 @@
             // 
             pictureBox_HouseMarket_Yellow_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Yellow_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Yellow_Price.Location = new Point(525, 113);
+            pictureBox_HouseMarket_Yellow_Price.Location = new Point(533, 113);
             pictureBox_HouseMarket_Yellow_Price.Name = "pictureBox_HouseMarket_Yellow_Price";
             pictureBox_HouseMarket_Yellow_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Yellow_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -847,7 +951,7 @@
             // 
             pictureBox_HouseMarket_Red_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Red_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Red_Price.Location = new Point(283, 113);
+            pictureBox_HouseMarket_Red_Price.Location = new Point(291, 113);
             pictureBox_HouseMarket_Red_Price.Name = "pictureBox_HouseMarket_Red_Price";
             pictureBox_HouseMarket_Red_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Red_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -858,7 +962,7 @@
             // 
             pictureBox_HouseMarket_Orange_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Orange_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Orange_Price.Location = new Point(45, 344);
+            pictureBox_HouseMarket_Orange_Price.Location = new Point(53, 344);
             pictureBox_HouseMarket_Orange_Price.Name = "pictureBox_HouseMarket_Orange_Price";
             pictureBox_HouseMarket_Orange_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Orange_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -869,7 +973,7 @@
             // 
             pictureBox_HouseMarket_Purple_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_Purple_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_Purple_Price.Location = new Point(45, 585);
+            pictureBox_HouseMarket_Purple_Price.Location = new Point(53, 585);
             pictureBox_HouseMarket_Purple_Price.Name = "pictureBox_HouseMarket_Purple_Price";
             pictureBox_HouseMarket_Purple_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_Purple_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -880,7 +984,7 @@
             // 
             pictureBox_HouseMarket_LightBlue_Price.BackColor = Color.Magenta;
             pictureBox_HouseMarket_LightBlue_Price.Image = Properties.Resources.r170;
-            pictureBox_HouseMarket_LightBlue_Price.Location = new Point(284, 823);
+            pictureBox_HouseMarket_LightBlue_Price.Location = new Point(292, 823);
             pictureBox_HouseMarket_LightBlue_Price.Name = "pictureBox_HouseMarket_LightBlue_Price";
             pictureBox_HouseMarket_LightBlue_Price.Size = new Size(150, 75);
             pictureBox_HouseMarket_LightBlue_Price.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -983,52 +1087,45 @@
             Load += MainAppForm_Load;
             panel_StockMarketAggriculture.ResumeLayout(false);
             panel_StockMarketAggriculture.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Price).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Background).EndInit();
             panel_StockMarketTextiles.ResumeLayout(false);
             panel_StockMarketTextiles.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Price).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketTextiles_Background).EndInit();
             panel_StockMarketOil.ResumeLayout(false);
             panel_StockMarketOil.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Price).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketOil_Background).EndInit();
             panel_StockMarketPharma.ResumeLayout(false);
             panel_StockMarketPharma.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Price).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketPharma_Background).EndInit();
             panel_StockMarketSteel.ResumeLayout(false);
             panel_StockMarketSteel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Price).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketSteel_Background).EndInit();
             panel_GoodsMarket.ResumeLayout(false);
             panel_GoodsMarket.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Price).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_GoodsMarket_Background).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Brown_FutureIndicator).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Brown_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Brown_Price).EndInit();
             panel_HousingMarketFullDisplay.ResumeLayout(false);
             panel_HousingMarketFullDisplay.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_Evaluation).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_Evaluation).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_Evaluation).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Red_Evaluation).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Orange_Evaluation).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Purple_Evaluation).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_LightBlue_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_FutureIndicator).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_FutureIndicator).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_FutureIndicator).EndInit();
@@ -1036,6 +1133,13 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Orange_FutureIndicator).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Purple_FutureIndicator).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_LightBlue_FutureIndicator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Red_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Orange_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Purple_Evaluation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_LightBlue_Evaluation).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Blue_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Green_Price).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_HouseMarket_Yellow_Price).EndInit();
@@ -1125,5 +1229,13 @@
         private Label label4;
         private Button button_MarketShiftForward;
         private Button button_ExportAllMarkets;
+        private Label label_HouseMarket_Red;
+        private Label label_HouseMarket_Orange;
+        private Label label_HouseMarket_Purple;
+        private Label label_HouseMarket_LightBlue;
+        private Label label_HouseMarket_Brown;
+        private Label label_HouseMarket_Blue;
+        private Label label_HouseMarket_Green;
+        private Label label_HouseMarket_Yellow;
     }
 }

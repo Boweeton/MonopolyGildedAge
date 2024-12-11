@@ -111,20 +111,20 @@ namespace MonopolyGildedAgeCompanionApp
             AllMarketControllers.Add(GoodsMarket);
 
             HouseMarket1_Brown = new MarketFormsController( // Form Controller: BROWN housing market
-    market: myGameEngine.AllMarkets[6],
-    marketPanel: panel_HousingMarketFullDisplay,
-    marketNameLabel: null,
-    marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
-    marketPricePictureBox: pictureBox_HouseMarket_Brown_Price,
-    marketEvaluationPictureBox: pictureBox_HouseMarket_Brown_Evaluation,
-    marketFutureIndicatorPictureBox: pictureBox_HouseMarket_Brown_FutureIndicator
+            market: myGameEngine.AllMarkets[6],
+            marketPanel: panel_HousingMarketFullDisplay,
+            marketNameLabel: label_HouseMarket_Brown,
+            marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
+            marketPricePictureBox: pictureBox_HouseMarket_Brown_Price,
+            marketEvaluationPictureBox: pictureBox_HouseMarket_Brown_Evaluation,
+            marketFutureIndicatorPictureBox: pictureBox_HouseMarket_Brown_FutureIndicator
 );
             AllMarketControllers.Add(HouseMarket1_Brown);
 
             HouseMarket2_LightBlue = new MarketFormsController( // Form Controller: LIGHT BLUE housing market
                 market: myGameEngine.AllMarkets[7],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_LightBlue,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_LightBlue_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_LightBlue_Evaluation,
@@ -135,7 +135,7 @@ namespace MonopolyGildedAgeCompanionApp
             HouseMarket3_Purple = new MarketFormsController( // Form Controller: PURPLE housing market
                 market: myGameEngine.AllMarkets[8],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_Purple,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_Purple_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_Purple_Evaluation,
@@ -146,7 +146,7 @@ namespace MonopolyGildedAgeCompanionApp
             HouseMarket4_Orange = new MarketFormsController( // Form Controller: ORANGE housing market
                 market: myGameEngine.AllMarkets[9],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_Orange,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_Orange_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_Orange_Evaluation,
@@ -157,7 +157,7 @@ namespace MonopolyGildedAgeCompanionApp
             HouseMarket5_Red = new MarketFormsController( // Form Controller: RED housing market
                 market: myGameEngine.AllMarkets[10],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_Red,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_Red_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_Red_Evaluation,
@@ -168,7 +168,7 @@ namespace MonopolyGildedAgeCompanionApp
             HouseMarket6_Yellow = new MarketFormsController( // Form Controller: YELLOW housing market
                 market: myGameEngine.AllMarkets[11],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_Yellow,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_Yellow_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_Yellow_Evaluation,
@@ -179,7 +179,7 @@ namespace MonopolyGildedAgeCompanionApp
             HouseMarket7_Green = new MarketFormsController( // Form Controller: GREEN housing market
                 market: myGameEngine.AllMarkets[12],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_Green,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_Green_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_Green_Evaluation,
@@ -190,7 +190,7 @@ namespace MonopolyGildedAgeCompanionApp
             HouseMarket8_Blue = new MarketFormsController( // Form Controller: BLUE housing market
                 market: myGameEngine.AllMarkets[13],
                 marketPanel: panel_HousingMarketFullDisplay,
-                marketNameLabel: null,
+                marketNameLabel: label_HouseMarket_Blue,
                 marketBackgroundPictureBox: pictureBox_HousingMarket_FullDisplay_Background,
                 marketPricePictureBox: pictureBox_HouseMarket_Blue_Price,
                 marketEvaluationPictureBox: pictureBox_HouseMarket_Blue_Evaluation,
@@ -198,6 +198,8 @@ namespace MonopolyGildedAgeCompanionApp
             );
             AllMarketControllers.Add(HouseMarket8_Blue);
 
+
+            DoTheShift();
         }
 
         // Method to export MarketState list to CSV in the Downloads folder
@@ -257,6 +259,11 @@ namespace MonopolyGildedAgeCompanionApp
         }
 
         private void button_MarketShiftForward_Click(object sender, EventArgs e)
+        {
+            DoTheShift();
+        }
+
+        void DoTheShift()
         {
             foreach (MarketFormsController mfc in AllMarketControllers)
             {
