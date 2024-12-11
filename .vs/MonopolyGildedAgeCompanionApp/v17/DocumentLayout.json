@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\GameEngine.cs",
               "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\GameEngine.cs",
               "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\GameEngine.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T00:48:50.34Z",
               "IsPinned": true,
@@ -61,8 +61,7 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T00:51:01.622Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T01:09:34.888Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,20 +90,7 @@
               "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\MarketFormsController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T02:44:57.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainAppForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
-              "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
-              "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs [Design]",
-              "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T01:34:51.189Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-11T02:44:57.232Z"
             },
             {
               "$type": "Document",
@@ -119,6 +104,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T02:04:41.005Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainAppForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
+              "RelativeDocumentMoniker": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs",
+              "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MainAppForm.cs [Design]",
+              "RelativeToolTip": "MonopolyGildedAgeCompanionApp\\MainAppForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:34:51.189Z"
             }
           ]
         }
