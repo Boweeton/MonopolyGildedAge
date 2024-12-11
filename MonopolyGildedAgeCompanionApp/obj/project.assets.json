@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luker\\source\\repos\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj",
+      "projectUniqueName": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj",
       "projectName": "MonopolyGildedAgeCompanionApp",
-      "projectPath": "C:\\Users\\luker\\source\\repos\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj",
+      "projectPath": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp.csproj",
       "packagesPath": "C:\\Users\\luker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luker\\source\\repos\\MonopolyGildedAgeCompanionApp\\MonopolyGildedAgeCompanionApp\\obj\\",
+      "outputPath": "C:\\Users\\luker\\Documents\\GitHub Repos\\MonopolyGildedAge\\MonopolyGildedAgeCompanionApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luker\\AppData\\Roaming\\NuGet\\NuGet.Config",
