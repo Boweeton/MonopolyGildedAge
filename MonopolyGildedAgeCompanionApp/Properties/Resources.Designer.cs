@@ -133,6 +133,36 @@ namespace MonopolyGildedAgeCompanionApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EVALUATION_STRIP_High1 {
+            get {
+                object obj = ResourceManager.GetObject("EVALUATION_STRIP_High1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EVALUATION_STRIP_High2 {
+            get {
+                object obj = ResourceManager.GetObject("EVALUATION_STRIP_High2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EVALUATION_STRIP_High3 {
+            get {
+                object obj = ResourceManager.GetObject("EVALUATION_STRIP_High3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EVALUATION_STRIP_Low1 {
             get {
                 object obj = ResourceManager.GetObject("EVALUATION_STRIP_Low1", resourceCulture);
@@ -141,12 +171,52 @@ namespace MonopolyGildedAgeCompanionApp.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] FUTURE_INDICATOR_Large_Rise1 {
+        internal static System.Drawing.Bitmap EVALUATION_STRIP_Low2 {
             get {
-                object obj = ResourceManager.GetObject("FUTURE_INDICATOR_Large_Rise1", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("EVALUATION_STRIP_Low2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EVALUATION_STRIP_Low3 {
+            get {
+                object obj = ResourceManager.GetObject("EVALUATION_STRIP_Low3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EVALUATION_STRIP_Mid {
+            get {
+                object obj = ResourceManager.GetObject("EVALUATION_STRIP_Mid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUTURE_INDICATOR_Fall {
+            get {
+                object obj = ResourceManager.GetObject("FUTURE_INDICATOR_Fall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUTURE_INDICATOR_Large_Fall {
+            get {
+                object obj = ResourceManager.GetObject("FUTURE_INDICATOR_Large Fall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -156,6 +226,26 @@ namespace MonopolyGildedAgeCompanionApp.Properties {
         internal static System.Drawing.Bitmap FUTURE_INDICATOR_Nutral {
             get {
                 object obj = ResourceManager.GetObject("FUTURE_INDICATOR_Nutral", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FUTURE_INDICATOR_Rise {
+            get {
+                object obj = ResourceManager.GetObject("FUTURE_INDICATOR_Rise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Go_Plus_1 {
+            get {
+                object obj = ResourceManager.GetObject("Go Plus 1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

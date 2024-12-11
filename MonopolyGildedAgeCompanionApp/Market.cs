@@ -27,12 +27,14 @@ namespace MonopolyGildedAgeCompanionApp
         public List<MarketState> PriceChart { get; set; } // The Price Chart
         public int CurrentPrice { get; set; } // Current Price
         public int CurrentChartPosition { get; set; } // Chart Position
+        public ChangeType ChangeStatus { get; set; } // Change Status
 
 
         // Private Fields
         Random random = new Random();
         float surgeChanceAccumulation = 0;
         float crashChanceAccumulation = 0;
+        private const int SurgeCrashProtectionAmount = 10;
 
 
         // Constructors
@@ -188,7 +190,7 @@ namespace MonopolyGildedAgeCompanionApp
                         if (surgeChanceAccumulation >= 100)
                         {
                             // Snap price to a multiple of 10 in the upper 1/3rd.
-                            CurrentPrice = SelectNumberInRange(upperThird, PriceCeiling);
+                            CurrentPrice = SelectNumberInRange(upperThird, PriceCeiling - SurgeCrashProtectionAmount);
                             surgeChanceAccumulation = 0; // Reset surge accumulation
                         }
                     }
@@ -202,7 +204,7 @@ namespace MonopolyGildedAgeCompanionApp
                         if (crashChanceAccumulation >= 100)
                         {
                             // Snap price to a multiple of 10 in the lower 1/3rd.
-                            CurrentPrice = SelectNumberInRange(PriceFloor, lowerThird);
+                            CurrentPrice = SelectNumberInRange(PriceFloor + SurgeCrashProtectionAmount, lowerThird);
                             crashChanceAccumulation = 0; // Reset crash accumulation
                         }
                     }
@@ -281,6 +283,29 @@ namespace MonopolyGildedAgeCompanionApp
             }
         }
 
+        public void ShiftUp()
+        {
+            // Check for end of PriceChart reached
+            if (CurrentChartPosition < PriceChart.Count-1)
+            {
+                CurrentChartPosition++;
+                CurrentPrice = PriceChart[CurrentChartPosition].Price;
 
+                // Set ChangeStatus
+                if (PriceChart[CurrentChartPosition].Price > PriceChart[CurrentChartPosition - 1].Price)
+                {
+                    ChangeStatus = ChangeType.Risen;
+                }
+                if (PriceChart[CurrentChartPosition].Price < PriceChart[CurrentChartPosition - 1].Price)
+                {
+                    ChangeStatus = ChangeType.Fallen;
+                }
+                if (PriceChart[CurrentChartPosition].Price == PriceChart[CurrentChartPosition - 1].Price)
+                {
+                    ChangeStatus = ChangeType.Same;
+                }
+
+            }
+        }
     }
 }

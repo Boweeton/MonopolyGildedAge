@@ -208,7 +208,7 @@
             // pictureBox_StockMarketAggriculture_FutureIndicator
             // 
             pictureBox_StockMarketAggriculture_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketAggriculture_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_StockMarketAggriculture_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Rise;
             pictureBox_StockMarketAggriculture_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketAggriculture_FutureIndicator.Name = "pictureBox_StockMarketAggriculture_FutureIndicator";
             pictureBox_StockMarketAggriculture_FutureIndicator.Size = new Size(29, 60);
@@ -263,7 +263,7 @@
             // pictureBox_StockMarketTextiles_Evaluation
             // 
             pictureBox_StockMarketTextiles_Evaluation.BackColor = Color.Magenta;
-            pictureBox_StockMarketTextiles_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            pictureBox_StockMarketTextiles_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_High1;
             pictureBox_StockMarketTextiles_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketTextiles_Evaluation.Name = "pictureBox_StockMarketTextiles_Evaluation";
             pictureBox_StockMarketTextiles_Evaluation.Size = new Size(200, 31);
@@ -329,7 +329,7 @@
             // pictureBox_StockMarketOil_Evaluation
             // 
             pictureBox_StockMarketOil_Evaluation.BackColor = Color.Magenta;
-            pictureBox_StockMarketOil_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            pictureBox_StockMarketOil_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_High2;
             pictureBox_StockMarketOil_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketOil_Evaluation.Name = "pictureBox_StockMarketOil_Evaluation";
             pictureBox_StockMarketOil_Evaluation.Size = new Size(200, 31);
@@ -340,7 +340,7 @@
             // pictureBox_StockMarketOil_FutureIndicator
             // 
             pictureBox_StockMarketOil_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketOil_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_StockMarketOil_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Large_Fall;
             pictureBox_StockMarketOil_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketOil_FutureIndicator.Name = "pictureBox_StockMarketOil_FutureIndicator";
             pictureBox_StockMarketOil_FutureIndicator.Size = new Size(29, 60);
@@ -395,7 +395,7 @@
             // pictureBox_StockMarketPharma_Evaluation
             // 
             pictureBox_StockMarketPharma_Evaluation.BackColor = Color.Magenta;
-            pictureBox_StockMarketPharma_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            pictureBox_StockMarketPharma_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_High3;
             pictureBox_StockMarketPharma_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketPharma_Evaluation.Name = "pictureBox_StockMarketPharma_Evaluation";
             pictureBox_StockMarketPharma_Evaluation.Size = new Size(200, 31);
@@ -406,7 +406,7 @@
             // pictureBox_StockMarketPharma_FutureIndicator
             // 
             pictureBox_StockMarketPharma_FutureIndicator.BackColor = Color.Magenta;
-            pictureBox_StockMarketPharma_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            pictureBox_StockMarketPharma_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Fall;
             pictureBox_StockMarketPharma_FutureIndicator.Location = new Point(356, 32);
             pictureBox_StockMarketPharma_FutureIndicator.Name = "pictureBox_StockMarketPharma_FutureIndicator";
             pictureBox_StockMarketPharma_FutureIndicator.Size = new Size(29, 60);
@@ -461,7 +461,7 @@
             // pictureBox_StockMarketSteel_Evaluation
             // 
             pictureBox_StockMarketSteel_Evaluation.BackColor = Color.Magenta;
-            pictureBox_StockMarketSteel_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            pictureBox_StockMarketSteel_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low2;
             pictureBox_StockMarketSteel_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketSteel_Evaluation.Name = "pictureBox_StockMarketSteel_Evaluation";
             pictureBox_StockMarketSteel_Evaluation.Size = new Size(200, 31);
@@ -703,7 +703,7 @@
             // pictureBox_HouseMarket_Orange_Evaluation
             // 
             pictureBox_HouseMarket_Orange_Evaluation.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Orange_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            pictureBox_HouseMarket_Orange_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Mid;
             pictureBox_HouseMarket_Orange_Evaluation.Location = new Point(20, 444);
             pictureBox_HouseMarket_Orange_Evaluation.Name = "pictureBox_HouseMarket_Orange_Evaluation";
             pictureBox_HouseMarket_Orange_Evaluation.Size = new Size(200, 31);
@@ -714,7 +714,7 @@
             // pictureBox_HouseMarket_Purple_Evaluation
             // 
             pictureBox_HouseMarket_Purple_Evaluation.BackColor = Color.Magenta;
-            pictureBox_HouseMarket_Purple_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            pictureBox_HouseMarket_Purple_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low3;
             pictureBox_HouseMarket_Purple_Evaluation.Location = new Point(20, 685);
             pictureBox_HouseMarket_Purple_Evaluation.Name = "pictureBox_HouseMarket_Purple_Evaluation";
             pictureBox_HouseMarket_Purple_Evaluation.Size = new Size(200, 31);
@@ -955,6 +955,7 @@
             button_MarketShiftForward.Size = new Size(148, 58);
             button_MarketShiftForward.TabIndex = 3;
             button_MarketShiftForward.UseVisualStyleBackColor = true;
+            button_MarketShiftForward.Click += button_MarketShiftForward_Click;
             // 
             // label4
             // 

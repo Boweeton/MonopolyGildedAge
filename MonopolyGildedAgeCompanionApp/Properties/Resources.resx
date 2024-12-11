@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DISPLAY_BG_FARMING" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DISPLAY_BG_FARMING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Go Plus 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Go Plus 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EVALUATION_STRIP_High3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVALUATION_STRIP_High3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HOUSING_BG_BROWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HOUSING_BG_BROWN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,23 +130,44 @@
   <data name="EVALUATION_STRIP_Low1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EVALUATION_STRIP_Low1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FUTURE_INDICATOR_Large_Rise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUTURE_INDICATOR_Large Rise.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="DISPLAY_BG_PHARMACEUTICALS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DISPLAY_BG_PHARMACEUTICALS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="r170" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\r170.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FUTURE_INDICATOR_Large Rise" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FUTURE_INDICATOR_Large Rise1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EVALUATION_STRIP_High2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVALUATION_STRIP_High2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUTURE_INDICATOR_Rise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUTURE_INDICATOR_Rise1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DISPLAY_BG_OIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DISPLAY_BG_OIL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DISPLAY_BG_FARMING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DISPLAY_BG_FARMING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DISPLAY_BG_TEXTILES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DISPLAY_BG_TEXTILES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EVALUATION_STRIP_High1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVALUATION_STRIP_High1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Artboard 1@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Artboard 1@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUTURE_INDICATOR_Large Rise1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUTURE_INDICATOR_Large Rise2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUTURE_INDICATOR_Large Fall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUTURE_INDICATOR_Large Fall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r170.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DISPLAY_BG_PRESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DISPLAY_BG_PRESS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,19 +175,28 @@
   <data name="Market Shift 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Market Shift 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GO SPACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GO SPACE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FUTURE_INDICATOR_Nutral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUTURE_INDICATOR_Nutral1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DISPLAY_BG_CONSTRUCTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DISPLAY_BG_CONSTRUCTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FUTURE_INDICATOR_Large_Rise" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FUTURE_INDICATOR_Large Rise.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="GO SPACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GO SPACE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FUTURE_INDICATOR_Large_Rise1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FUTURE_INDICATOR_Large Rise.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FUTURE_INDICATOR_Nutral" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FUTURE_INDICATOR_Nutral1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EVALUATION_STRIP_Mid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVALUATION_STRIP_Mid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EVALUATION_STRIP_Low2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVALUATION_STRIP_Low2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FUTURE_INDICATOR_Fall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUTURE_INDICATOR_Fall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EVALUATION_STRIP_Low3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVALUATION_STRIP_Low3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -66,26 +66,76 @@ namespace MonopolyGildedAgeCompanionApp
 
 
         // Methods
-        void GoToNextMarketState()
+        public void GoToNextMarketState()
         {
-
-        }
-
-        void SetPriceImage()
-        {
-
-        }
-
-        void SetEvaluationImage()
-        {
-
-        }
-
-        void SetFutureIndicatorImage()
-        {
-            if (Market.PriceChart[Market.CurrentChartPosition].FutureIndicator == -2)
+            // If there are MarketStates remaining
+            if (Market.CurrentChartPosition < Market.PriceChart.Count)
             {
-                //MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Large_Rise;
+                Market.ShiftUp();
+                SetPriceImage(Market.CurrentPrice);
+                SetEvaluationImage(Market.PriceChart[Market.CurrentChartPosition].Evaluation);
+                SetFutureIndicatorImage(Market.PriceChart[Market.CurrentChartPosition].FutureIndicator);
+            }
+        }
+
+        void SetPriceImage(int newPrice)
+        {
+
+        }
+
+        void SetEvaluationImage(int evaluationScore)
+        {
+            if (evaluationScore == -3)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_Low3;
+            }
+            if (evaluationScore == -2)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_Low2;
+            }
+            if (evaluationScore == -1)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_Low1;
+            }
+            if (evaluationScore == 0)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_Mid;
+            }
+            if (evaluationScore == 1)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_High1;
+            }
+            if (evaluationScore == 2)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_High2;
+            }
+            if (evaluationScore == 3)
+            {
+                MarketEvaluationPictureBox.Image = Properties.Resources.EVALUATION_STRIP_High3;
+            }
+        }
+
+        void SetFutureIndicatorImage(int indicatorScore)
+        {
+            if (indicatorScore == -2)
+            {
+                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Large_Fall;
+            }
+            if (indicatorScore == -1)
+            {
+                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Fall;
+            }
+            if (indicatorScore == 0)
+            {
+                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
+            }
+            if (indicatorScore == 1)
+            {
+                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Rise;
+            }
+            if (indicatorScore == 2)
+            {
+                MarketFutureIndicatorPictureBox.Image = Properties.Resources.FUTURE_INDICATOR_Rise; // Todo: fix this later
             }
         }
     }

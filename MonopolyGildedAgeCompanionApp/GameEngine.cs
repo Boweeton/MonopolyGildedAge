@@ -10,6 +10,7 @@ namespace MonopolyGildedAgeCompanionApp
     {
         // === CONSTANTS / CONSTRUCTOR ===
         public List<Market> AllMarkets;
+        private const int Default_ChartSize = 75;
 
         public GameEngine()
         {
@@ -30,7 +31,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 33,
                 crashChanceFloor: 25,
                 crashChanceCeiling: 33,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 1
@@ -48,7 +49,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 33,
                 crashChanceFloor: 25,
                 crashChanceCeiling: 33,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 2
@@ -66,7 +67,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 59,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 76,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 3
@@ -84,7 +85,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 39,
                 crashChanceFloor: 5,
                 crashChanceCeiling: 33,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 4
@@ -102,7 +103,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 40,
                 crashChanceFloor: 1,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 5
@@ -120,7 +121,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 12,
                 crashChanceFloor: 9,
                 crashChanceCeiling: 12,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 6
@@ -138,7 +139,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 7
@@ -156,7 +157,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 8
@@ -174,7 +175,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 9
@@ -192,7 +193,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 10
@@ -210,7 +211,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 11
@@ -228,7 +229,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 12
@@ -246,7 +247,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
 
             AllMarkets.Add(new Market( // Position 13
@@ -264,7 +265,7 @@ namespace MonopolyGildedAgeCompanionApp
                 surgeChanceCeiling: 25,
                 crashChanceFloor: 20,
                 crashChanceCeiling: 25,
-                defaultChartSize: 35
+                defaultChartSize: Default_ChartSize
             ));
         }
         // =================

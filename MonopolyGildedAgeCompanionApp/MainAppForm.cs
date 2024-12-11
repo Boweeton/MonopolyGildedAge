@@ -255,5 +255,13 @@ namespace MonopolyGildedAgeCompanionApp
         {
             ExportMarketStatesToCSV(myGameEngine.AllMarkets);
         }
+
+        private void button_MarketShiftForward_Click(object sender, EventArgs e)
+        {
+            foreach (MarketFormsController mfc in AllMarketControllers)
+            {
+                mfc.GoToNextMarketState();
+            }
+        }
     }
 }
