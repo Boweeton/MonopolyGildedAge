@@ -283,6 +283,16 @@ namespace MonopolyGildedAgeCompanionApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap m__stamp {
+            get {
+                object obj = ResourceManager.GetObject("m+ stamp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Market_Shift_2 {
             get {
                 object obj = ResourceManager.GetObject("Market Shift 2", resourceCulture);

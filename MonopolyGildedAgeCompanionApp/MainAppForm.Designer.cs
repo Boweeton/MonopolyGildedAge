@@ -107,6 +107,7 @@
             button_ExportAllMarkets = new Button();
             button_MarketShiftForward = new Button();
             label4 = new Label();
+            pictureBox_MainLogo = new PictureBox();
             panel_StockMarketAggriculture.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_FutureIndicator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_StockMarketAggriculture_Evaluation).BeginInit();
@@ -166,6 +167,7 @@
             panel_StockMarket.SuspendLayout();
             panel_FactoryGoodsMarket.SuspendLayout();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_MainLogo).BeginInit();
             SuspendLayout();
             // 
             // panel_StockMarketAggriculture
@@ -182,7 +184,7 @@
             // 
             // pictureBox_StockMarketAggriculture_FutureIndicator
             // 
-            pictureBox_StockMarketAggriculture_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketAggriculture_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_StockMarketAggriculture_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Rise;
             pictureBox_StockMarketAggriculture_FutureIndicator.Location = new Point(352, 43);
             pictureBox_StockMarketAggriculture_FutureIndicator.Name = "pictureBox_StockMarketAggriculture_FutureIndicator";
@@ -193,7 +195,7 @@
             // 
             // pictureBox_StockMarketAggriculture_Evaluation
             // 
-            pictureBox_StockMarketAggriculture_Evaluation.BackColor = Color.Magenta;
+            pictureBox_StockMarketAggriculture_Evaluation.BackColor = Color.Ivory;
             pictureBox_StockMarketAggriculture_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_StockMarketAggriculture_Evaluation.Location = new Point(130, 88);
             pictureBox_StockMarketAggriculture_Evaluation.Name = "pictureBox_StockMarketAggriculture_Evaluation";
@@ -205,7 +207,7 @@
             // label_StockMarketAggriculture
             // 
             label_StockMarketAggriculture.AutoSize = true;
-            label_StockMarketAggriculture.BackColor = Color.Magenta;
+            label_StockMarketAggriculture.BackColor = Color.Ivory;
             label_StockMarketAggriculture.Font = new Font("High Tower Text", 72F);
             label_StockMarketAggriculture.Location = new Point(133, -17);
             label_StockMarketAggriculture.Name = "label_StockMarketAggriculture";
@@ -248,7 +250,7 @@
             // 
             // pictureBox_StockMarketTextiles_FutureIndicator
             // 
-            pictureBox_StockMarketTextiles_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketTextiles_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_StockMarketTextiles_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_StockMarketTextiles_FutureIndicator.Location = new Point(352, 43);
             pictureBox_StockMarketTextiles_FutureIndicator.Name = "pictureBox_StockMarketTextiles_FutureIndicator";
@@ -259,7 +261,7 @@
             // 
             // pictureBox_StockMarketTextiles_Evaluation
             // 
-            pictureBox_StockMarketTextiles_Evaluation.BackColor = Color.Magenta;
+            pictureBox_StockMarketTextiles_Evaluation.BackColor = Color.Ivory;
             pictureBox_StockMarketTextiles_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_High1;
             pictureBox_StockMarketTextiles_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketTextiles_Evaluation.Name = "pictureBox_StockMarketTextiles_Evaluation";
@@ -271,7 +273,7 @@
             // label_StockMarketTextiles
             // 
             label_StockMarketTextiles.AutoSize = true;
-            label_StockMarketTextiles.BackColor = Color.Magenta;
+            label_StockMarketTextiles.BackColor = Color.Ivory;
             label_StockMarketTextiles.Font = new Font("High Tower Text", 72F);
             label_StockMarketTextiles.Location = new Point(134, -11);
             label_StockMarketTextiles.Name = "label_StockMarketTextiles";
@@ -314,7 +316,7 @@
             // 
             // pictureBox_StockMarketOil_FutureIndicator
             // 
-            pictureBox_StockMarketOil_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketOil_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_StockMarketOil_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Large_Fall;
             pictureBox_StockMarketOil_FutureIndicator.Location = new Point(352, 43);
             pictureBox_StockMarketOil_FutureIndicator.Name = "pictureBox_StockMarketOil_FutureIndicator";
@@ -325,7 +327,7 @@
             // 
             // pictureBox_StockMarketOil_Evaluation
             // 
-            pictureBox_StockMarketOil_Evaluation.BackColor = Color.Magenta;
+            pictureBox_StockMarketOil_Evaluation.BackColor = Color.Ivory;
             pictureBox_StockMarketOil_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_High2;
             pictureBox_StockMarketOil_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketOil_Evaluation.Name = "pictureBox_StockMarketOil_Evaluation";
@@ -337,7 +339,7 @@
             // label_StockMarketOil
             // 
             label_StockMarketOil.AutoSize = true;
-            label_StockMarketOil.BackColor = Color.Magenta;
+            label_StockMarketOil.BackColor = Color.Ivory;
             label_StockMarketOil.Font = new Font("High Tower Text", 72F);
             label_StockMarketOil.Location = new Point(137, -18);
             label_StockMarketOil.Name = "label_StockMarketOil";
@@ -380,7 +382,7 @@
             // 
             // pictureBox_StockMarketPharma_FutureIndicator
             // 
-            pictureBox_StockMarketPharma_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketPharma_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_StockMarketPharma_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Fall;
             pictureBox_StockMarketPharma_FutureIndicator.Location = new Point(352, 43);
             pictureBox_StockMarketPharma_FutureIndicator.Name = "pictureBox_StockMarketPharma_FutureIndicator";
@@ -391,7 +393,7 @@
             // 
             // pictureBox_StockMarketPharma_Evaluation
             // 
-            pictureBox_StockMarketPharma_Evaluation.BackColor = Color.Magenta;
+            pictureBox_StockMarketPharma_Evaluation.BackColor = Color.Ivory;
             pictureBox_StockMarketPharma_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_High3;
             pictureBox_StockMarketPharma_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketPharma_Evaluation.Name = "pictureBox_StockMarketPharma_Evaluation";
@@ -403,7 +405,7 @@
             // label_StockMarketPharma
             // 
             label_StockMarketPharma.AutoSize = true;
-            label_StockMarketPharma.BackColor = Color.Magenta;
+            label_StockMarketPharma.BackColor = Color.Ivory;
             label_StockMarketPharma.Font = new Font("High Tower Text", 72F);
             label_StockMarketPharma.Location = new Point(138, -19);
             label_StockMarketPharma.Name = "label_StockMarketPharma";
@@ -446,7 +448,7 @@
             // 
             // pictureBox_StockMarketSteel_FutureIndicator
             // 
-            pictureBox_StockMarketSteel_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_StockMarketSteel_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_StockMarketSteel_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Large_Rise;
             pictureBox_StockMarketSteel_FutureIndicator.Location = new Point(352, 43);
             pictureBox_StockMarketSteel_FutureIndicator.Name = "pictureBox_StockMarketSteel_FutureIndicator";
@@ -457,7 +459,7 @@
             // 
             // pictureBox_StockMarketSteel_Evaluation
             // 
-            pictureBox_StockMarketSteel_Evaluation.BackColor = Color.Magenta;
+            pictureBox_StockMarketSteel_Evaluation.BackColor = Color.Ivory;
             pictureBox_StockMarketSteel_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low2;
             pictureBox_StockMarketSteel_Evaluation.Location = new Point(129, 89);
             pictureBox_StockMarketSteel_Evaluation.Name = "pictureBox_StockMarketSteel_Evaluation";
@@ -469,7 +471,7 @@
             // label_StockMarketSteel
             // 
             label_StockMarketSteel.AutoSize = true;
-            label_StockMarketSteel.BackColor = Color.Magenta;
+            label_StockMarketSteel.BackColor = Color.Ivory;
             label_StockMarketSteel.Font = new Font("High Tower Text", 72F);
             label_StockMarketSteel.Location = new Point(127, -11);
             label_StockMarketSteel.Name = "label_StockMarketSteel";
@@ -512,7 +514,7 @@
             // 
             // pictureBox_GoodsMarket_FutureIndicator
             // 
-            pictureBox_GoodsMarket_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_GoodsMarket_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_GoodsMarket_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_GoodsMarket_FutureIndicator.Location = new Point(352, 43);
             pictureBox_GoodsMarket_FutureIndicator.Name = "pictureBox_GoodsMarket_FutureIndicator";
@@ -523,7 +525,7 @@
             // 
             // pictureBox_GoodsMarket_Evaluation
             // 
-            pictureBox_GoodsMarket_Evaluation.BackColor = Color.Magenta;
+            pictureBox_GoodsMarket_Evaluation.BackColor = Color.Ivory;
             pictureBox_GoodsMarket_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_GoodsMarket_Evaluation.Location = new Point(129, 89);
             pictureBox_GoodsMarket_Evaluation.Name = "pictureBox_GoodsMarket_Evaluation";
@@ -535,7 +537,7 @@
             // label_GoodsMarket
             // 
             label_GoodsMarket.AutoSize = true;
-            label_GoodsMarket.BackColor = Color.Magenta;
+            label_GoodsMarket.BackColor = Color.Ivory;
             label_GoodsMarket.Font = new Font("High Tower Text", 72F);
             label_GoodsMarket.Location = new Point(124, -9);
             label_GoodsMarket.Name = "label_GoodsMarket";
@@ -566,7 +568,7 @@
             // 
             // pictureBox_HouseMarket_Brown_FutureIndicator
             // 
-            pictureBox_HouseMarket_Brown_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Brown_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Brown_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Brown_FutureIndicator.Location = new Point(695, 859);
             pictureBox_HouseMarket_Brown_FutureIndicator.Name = "pictureBox_HouseMarket_Brown_FutureIndicator";
@@ -577,7 +579,7 @@
             // 
             // pictureBox_HouseMarket_Brown_Evaluation
             // 
-            pictureBox_HouseMarket_Brown_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Brown_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Brown_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_HouseMarket_Brown_Evaluation.Location = new Point(500, 923);
             pictureBox_HouseMarket_Brown_Evaluation.Name = "pictureBox_HouseMarket_Brown_Evaluation";
@@ -622,6 +624,7 @@
             // panel_HousingMarketFullDisplay
             // 
             panel_HousingMarketFullDisplay.BorderStyle = BorderStyle.Fixed3D;
+            panel_HousingMarketFullDisplay.Controls.Add(pictureBox_MainLogo);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Blue_FutureIndicator);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Green_FutureIndicator);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Yellow_FutureIndicator);
@@ -656,14 +659,14 @@
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_LightBlue_Price);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HouseMarket_Brown_Price);
             panel_HousingMarketFullDisplay.Controls.Add(pictureBox_HousingMarket_FullDisplay_Background);
-            panel_HousingMarketFullDisplay.Location = new Point(653, 12);
+            panel_HousingMarketFullDisplay.Location = new Point(648, 3);
             panel_HousingMarketFullDisplay.Name = "panel_HousingMarketFullDisplay";
-            panel_HousingMarketFullDisplay.Size = new Size(1020, 1010);
+            panel_HousingMarketFullDisplay.Size = new Size(976, 1010);
             panel_HousingMarketFullDisplay.TabIndex = 5;
             // 
             // pictureBox_HouseMarket_Blue_FutureIndicator
             // 
-            pictureBox_HouseMarket_Blue_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Blue_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Blue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Blue_FutureIndicator.Location = new Point(930, 621);
             pictureBox_HouseMarket_Blue_FutureIndicator.Name = "pictureBox_HouseMarket_Blue_FutureIndicator";
@@ -674,7 +677,7 @@
             // 
             // pictureBox_HouseMarket_Green_FutureIndicator
             // 
-            pictureBox_HouseMarket_Green_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Green_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Green_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Green_FutureIndicator.Location = new Point(930, 380);
             pictureBox_HouseMarket_Green_FutureIndicator.Name = "pictureBox_HouseMarket_Green_FutureIndicator";
@@ -685,7 +688,7 @@
             // 
             // pictureBox_HouseMarket_Yellow_FutureIndicator
             // 
-            pictureBox_HouseMarket_Yellow_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Yellow_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Yellow_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Yellow_FutureIndicator.Location = new Point(695, 142);
             pictureBox_HouseMarket_Yellow_FutureIndicator.Name = "pictureBox_HouseMarket_Yellow_FutureIndicator";
@@ -696,7 +699,7 @@
             // 
             // pictureBox_HouseMarket_Red_FutureIndicator
             // 
-            pictureBox_HouseMarket_Red_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Red_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Red_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Red_FutureIndicator.Location = new Point(453, 149);
             pictureBox_HouseMarket_Red_FutureIndicator.Name = "pictureBox_HouseMarket_Red_FutureIndicator";
@@ -707,7 +710,7 @@
             // 
             // pictureBox_HouseMarket_Orange_FutureIndicator
             // 
-            pictureBox_HouseMarket_Orange_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Orange_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Orange_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Orange_FutureIndicator.Location = new Point(215, 380);
             pictureBox_HouseMarket_Orange_FutureIndicator.Name = "pictureBox_HouseMarket_Orange_FutureIndicator";
@@ -718,7 +721,7 @@
             // 
             // pictureBox_HouseMarket_Purple_FutureIndicator
             // 
-            pictureBox_HouseMarket_Purple_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Purple_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Purple_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_Purple_FutureIndicator.Location = new Point(215, 621);
             pictureBox_HouseMarket_Purple_FutureIndicator.Name = "pictureBox_HouseMarket_Purple_FutureIndicator";
@@ -729,7 +732,7 @@
             // 
             // pictureBox_HouseMarket_LightBlue_FutureIndicator
             // 
-            pictureBox_HouseMarket_LightBlue_FutureIndicator.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_LightBlue_FutureIndicator.BackColor = Color.Ivory;
             pictureBox_HouseMarket_LightBlue_FutureIndicator.Image = Properties.Resources.FUTURE_INDICATOR_Nutral;
             pictureBox_HouseMarket_LightBlue_FutureIndicator.Location = new Point(454, 859);
             pictureBox_HouseMarket_LightBlue_FutureIndicator.Name = "pictureBox_HouseMarket_LightBlue_FutureIndicator";
@@ -740,7 +743,7 @@
             // 
             // pictureBox_HouseMarket_Blue_Evaluation
             // 
-            pictureBox_HouseMarket_Blue_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Blue_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Blue_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_HouseMarket_Blue_Evaluation.Location = new Point(735, 685);
             pictureBox_HouseMarket_Blue_Evaluation.Name = "pictureBox_HouseMarket_Blue_Evaluation";
@@ -751,7 +754,7 @@
             // 
             // pictureBox_HouseMarket_Green_Evaluation
             // 
-            pictureBox_HouseMarket_Green_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Green_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Green_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_HouseMarket_Green_Evaluation.Location = new Point(735, 444);
             pictureBox_HouseMarket_Green_Evaluation.Name = "pictureBox_HouseMarket_Green_Evaluation";
@@ -762,7 +765,7 @@
             // 
             // pictureBox_HouseMarket_Yellow_Evaluation
             // 
-            pictureBox_HouseMarket_Yellow_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Yellow_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Yellow_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_HouseMarket_Yellow_Evaluation.Location = new Point(503, 214);
             pictureBox_HouseMarket_Yellow_Evaluation.Name = "pictureBox_HouseMarket_Yellow_Evaluation";
@@ -773,7 +776,7 @@
             // 
             // pictureBox_HouseMarket_Red_Evaluation
             // 
-            pictureBox_HouseMarket_Red_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Red_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Red_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_HouseMarket_Red_Evaluation.Location = new Point(258, 213);
             pictureBox_HouseMarket_Red_Evaluation.Name = "pictureBox_HouseMarket_Red_Evaluation";
@@ -784,7 +787,7 @@
             // 
             // pictureBox_HouseMarket_Orange_Evaluation
             // 
-            pictureBox_HouseMarket_Orange_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Orange_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Orange_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Mid;
             pictureBox_HouseMarket_Orange_Evaluation.Location = new Point(20, 444);
             pictureBox_HouseMarket_Orange_Evaluation.Name = "pictureBox_HouseMarket_Orange_Evaluation";
@@ -795,7 +798,7 @@
             // 
             // pictureBox_HouseMarket_Purple_Evaluation
             // 
-            pictureBox_HouseMarket_Purple_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_Purple_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_Purple_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low3;
             pictureBox_HouseMarket_Purple_Evaluation.Location = new Point(20, 685);
             pictureBox_HouseMarket_Purple_Evaluation.Name = "pictureBox_HouseMarket_Purple_Evaluation";
@@ -806,7 +809,7 @@
             // 
             // pictureBox_HouseMarket_LightBlue_Evaluation
             // 
-            pictureBox_HouseMarket_LightBlue_Evaluation.BackColor = Color.Magenta;
+            pictureBox_HouseMarket_LightBlue_Evaluation.BackColor = Color.Ivory;
             pictureBox_HouseMarket_LightBlue_Evaluation.Image = Properties.Resources.EVALUATION_STRIP_Low1;
             pictureBox_HouseMarket_LightBlue_Evaluation.Location = new Point(259, 923);
             pictureBox_HouseMarket_LightBlue_Evaluation.Name = "pictureBox_HouseMarket_LightBlue_Evaluation";
@@ -818,7 +821,7 @@
             // label_HouseMarket_Blue
             // 
             label_HouseMarket_Blue.AutoSize = true;
-            label_HouseMarket_Blue.BackColor = Color.Magenta;
+            label_HouseMarket_Blue.BackColor = Color.Ivory;
             label_HouseMarket_Blue.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Blue.Location = new Point(728, 563);
             label_HouseMarket_Blue.Name = "label_HouseMarket_Blue";
@@ -829,7 +832,7 @@
             // label_HouseMarket_Green
             // 
             label_HouseMarket_Green.AutoSize = true;
-            label_HouseMarket_Green.BackColor = Color.Magenta;
+            label_HouseMarket_Green.BackColor = Color.Ivory;
             label_HouseMarket_Green.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Green.Location = new Point(728, 322);
             label_HouseMarket_Green.Name = "label_HouseMarket_Green";
@@ -840,7 +843,7 @@
             // label_HouseMarket_Yellow
             // 
             label_HouseMarket_Yellow.AutoSize = true;
-            label_HouseMarket_Yellow.BackColor = Color.Magenta;
+            label_HouseMarket_Yellow.BackColor = Color.Ivory;
             label_HouseMarket_Yellow.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Yellow.Location = new Point(492, 85);
             label_HouseMarket_Yellow.Name = "label_HouseMarket_Yellow";
@@ -851,7 +854,7 @@
             // label_HouseMarket_Red
             // 
             label_HouseMarket_Red.AutoSize = true;
-            label_HouseMarket_Red.BackColor = Color.Magenta;
+            label_HouseMarket_Red.BackColor = Color.Ivory;
             label_HouseMarket_Red.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Red.Location = new Point(252, 85);
             label_HouseMarket_Red.Name = "label_HouseMarket_Red";
@@ -862,7 +865,7 @@
             // label_HouseMarket_Orange
             // 
             label_HouseMarket_Orange.AutoSize = true;
-            label_HouseMarket_Orange.BackColor = Color.Magenta;
+            label_HouseMarket_Orange.BackColor = Color.Ivory;
             label_HouseMarket_Orange.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Orange.Location = new Point(15, 312);
             label_HouseMarket_Orange.Name = "label_HouseMarket_Orange";
@@ -873,7 +876,7 @@
             // label_HouseMarket_Purple
             // 
             label_HouseMarket_Purple.AutoSize = true;
-            label_HouseMarket_Purple.BackColor = Color.Magenta;
+            label_HouseMarket_Purple.BackColor = Color.Ivory;
             label_HouseMarket_Purple.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Purple.Location = new Point(15, 557);
             label_HouseMarket_Purple.Name = "label_HouseMarket_Purple";
@@ -884,7 +887,7 @@
             // label_HouseMarket_LightBlue
             // 
             label_HouseMarket_LightBlue.AutoSize = true;
-            label_HouseMarket_LightBlue.BackColor = Color.Magenta;
+            label_HouseMarket_LightBlue.BackColor = Color.Ivory;
             label_HouseMarket_LightBlue.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_LightBlue.Location = new Point(252, 801);
             label_HouseMarket_LightBlue.Name = "label_HouseMarket_LightBlue";
@@ -895,7 +898,7 @@
             // label_HouseMarket_Brown
             // 
             label_HouseMarket_Brown.AutoSize = true;
-            label_HouseMarket_Brown.BackColor = Color.Magenta;
+            label_HouseMarket_Brown.BackColor = Color.Ivory;
             label_HouseMarket_Brown.Font = new Font("High Tower Text", 72F);
             label_HouseMarket_Brown.Location = new Point(492, 801);
             label_HouseMarket_Brown.Name = "label_HouseMarket_Brown";
@@ -1010,7 +1013,7 @@
             panel_StockMarket.Controls.Add(panel_StockMarketOil);
             panel_StockMarket.Controls.Add(panel_StockMarketPharma);
             panel_StockMarket.Controls.Add(panel_StockMarketSteel);
-            panel_StockMarket.Location = new Point(205, 12);
+            panel_StockMarket.Location = new Point(200, 3);
             panel_StockMarket.Name = "panel_StockMarket";
             panel_StockMarket.Size = new Size(428, 744);
             panel_StockMarket.TabIndex = 6;
@@ -1020,7 +1023,7 @@
             panel_FactoryGoodsMarket.BorderStyle = BorderStyle.Fixed3D;
             panel_FactoryGoodsMarket.Controls.Add(label2);
             panel_FactoryGoodsMarket.Controls.Add(panel_GoodsMarket);
-            panel_FactoryGoodsMarket.Location = new Point(205, 773);
+            panel_FactoryGoodsMarket.Location = new Point(200, 764);
             panel_FactoryGoodsMarket.Name = "panel_FactoryGoodsMarket";
             panel_FactoryGoodsMarket.Size = new Size(428, 179);
             panel_FactoryGoodsMarket.TabIndex = 7;
@@ -1031,7 +1034,7 @@
             panel1.Controls.Add(button_ExportAllMarkets);
             panel1.Controls.Add(button_MarketShiftForward);
             panel1.Controls.Add(label4);
-            panel1.Location = new Point(12, 12);
+            panel1.Location = new Point(7, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(159, 1010);
             panel1.TabIndex = 8;
@@ -1072,12 +1075,23 @@
             label4.TabIndex = 2;
             label4.Text = "App Controls";
             // 
+            // pictureBox_MainLogo
+            // 
+            pictureBox_MainLogo.BackColor = Color.Ivory;
+            pictureBox_MainLogo.Image = Properties.Resources.m__stamp;
+            pictureBox_MainLogo.Location = new Point(337, 418);
+            pictureBox_MainLogo.Name = "pictureBox_MainLogo";
+            pictureBox_MainLogo.Size = new Size(295, 185);
+            pictureBox_MainLogo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_MainLogo.TabIndex = 4;
+            pictureBox_MainLogo.TabStop = false;
+            // 
             // MainAppForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(188, 224, 193);
-            ClientSize = new Size(1904, 1041);
+            ClientSize = new Size(1633, 1026);
             Controls.Add(panel1);
             Controls.Add(panel_FactoryGoodsMarket);
             Controls.Add(panel_StockMarket);
@@ -1154,6 +1168,7 @@
             panel_FactoryGoodsMarket.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_MainLogo).EndInit();
             ResumeLayout(false);
         }
 
@@ -1237,5 +1252,6 @@
         private Label label_HouseMarket_Blue;
         private Label label_HouseMarket_Green;
         private Label label_HouseMarket_Yellow;
+        private PictureBox pictureBox_MainLogo;
     }
 }
